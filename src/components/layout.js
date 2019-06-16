@@ -19,17 +19,22 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            menuLinks {
+              name
+              link
+            }
           }
         }
       }
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
+            //maxWidth: 960,
+            width: `100%`,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}

@@ -2,31 +2,38 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+require("typeface-varela-round")
+
+const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `white`,
       marginBottom: `1.45rem`,
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
+    <div>
+      <nav>
+        <ul
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            display: `flex`,
+            justifyContent: `flex-end`
           }}
         >
-          {siteTitle}
-        </Link>
-      </h1>
+          {menuLinks.map(link => (
+            <li
+              key={link.name}
+              style={{
+                listStyleType: `none`,
+                padding: `1rem`
+              }}
+            >
+              <Link style={{ color: `#333333` }} to={link.link}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </div>
   </header>
 )
