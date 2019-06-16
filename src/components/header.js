@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-require("typeface-varela-round")
+import "../styles/header.css"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
@@ -27,7 +27,7 @@ const Header = ({ siteTitle, menuLinks }) => (
                 padding: `1rem`
               }}
             >
-              <Link style={{ color: `#333333` }} to={link.link}>
+              <Link to={link.link}>
                 {link.name}
               </Link>
             </li>
