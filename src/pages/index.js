@@ -4,19 +4,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Jenny's Portfolio"/>
-    <p>Hey! I'm</p>
-    <h1>Jenny Le</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/projects/">Go to Projects page</Link>
-    <Link to="/contact/">Go to Contact page</Link>
+    <Hero></Hero>
   </Layout>
 )
 
