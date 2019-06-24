@@ -12,6 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "../styles/layout.css"
 import "typeface-varela-round"
+import "typeface-montserrat"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -38,6 +39,7 @@ const Layout = ({ children }) => (
             width: `90%`,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            color: `#515151`,
           }}
         >
           <main>{children}</main>

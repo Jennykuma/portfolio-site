@@ -1,31 +1,49 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
+import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
 
 import Image from "../components/image"
 import SEO from "../components/seo"
 
 // Create a Title component that'll render an <h1> tag with some styles
 const Name = styled.h1`
-  font-size: 5.0em;
+  font-size: 3.5em;
   text-align: left;
-  font-family: varela round;
+  font-family: montserrat;
+  font-weight: 500;
   color: #F99581;
 `;
 
-
+const Text = styled.text`
+    font-size: 0.9em;
+`;
 
 const Hero = () => (
-    <>
+    <Grid>
         <SEO title="Jenny's Portfolio"/>
-        <p>Hey! I'm</p>
-        <Name>Jenny Le</Name>
-        <p>Welcome to your new Gatsby site.</p>
-        <p>Now go build something great.</p>
-        <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-            <Image />
-        </div>
-    </>
+
+        <Col xs={12} md={6}>
+            <Row>
+                <Name>I'm Jenny.</Name>
+            </Row>
+
+            <Row>
+                <Text>
+                    I am a fifth-year Computer Science student who is also concentrating in Human-Computer Interaction 
+                    at the University of Calgary.
+                </Text>
+            </Row>
+            <br></br>
+            <Row>
+                <Text>
+                    I love creating beautiful experiences for others through developing websites or software. 
+                    I also enjoy capturing special moments with my Sony a6000.
+                </Text>
+            </Row>
+        </Col>
+
+    </Grid>
 )
 
 export default Hero
