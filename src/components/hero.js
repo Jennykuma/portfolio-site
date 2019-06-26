@@ -20,17 +20,12 @@ const Text = styled.text`
     line-height: 1.5em;
 `;
 
-const Highlight = styled.text`
-    display: inline;
-    background-image: linear-gradient(#fff 60%, #FFC5C1 55%);
-`;
-
 const Hero = () => (
     <Grid>
         <SEO title="Jenny's Portfolio"/>
 
         <Row style={{ marginTop: `10%`}}>
-            <Col xs={12} md={6} mdOffset={1}>
+            <Col xs={12} md={6} mdOffset={1} style={{ marginTop: `2%` }}>
                 <Row start="xs">
                     <Name>I'm Jenny.</Name>
                 </Row>
@@ -45,18 +40,14 @@ const Hero = () => (
                         at the University of Calgary.
                     </Text>
                 </Row>
-
                 <br></br>
-
                 <Row>
                     <Text>
                         I love creating beautiful experiences for others by creating websites or software. 
                         I also enjoy capturing special moments with my Sony a6000.
                     </Text>
                 </Row>
-
                 <br></br>
-
                 <Row>
                     <Text>
                         Feel free to check out my&nbsp;
