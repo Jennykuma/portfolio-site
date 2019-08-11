@@ -1,5 +1,5 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 /*
@@ -13,20 +13,58 @@ import Img from "gatsby-image"
  * - `StaticQuery`: https://gatsby.dev/staticquery
  */
 
-const Image = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        placeholderImage: file(relativePath: { eq: "headshot.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 300) {
-              ...GatsbyImageSharpFluid
-            }
+const DynamicImage = (props) => {
+  const data = useStaticQuery(graphql`
+    query {
+      headshotImage: file(relativePath: { eq: "headshot.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
-    `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
-  />
-)
-export default Image
+      lisasButtonImage: file(relativePath: { eq: "theButton.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      quickCommsImage: file(relativePath: { eq: "physicalComputing.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      ikeaBuilderImage: file(relativePath: { eq: "ikeaBuilder.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      plantingHyggeImage: file(relativePath: { eq: "plantingHygge.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
+  let imageName = props.imageName;
+  if (imageName == "headshotImage") {
+    return <Img fluid={data.headshotImage.childImageSharp.fluid} />
+  } else if (imageName == "lisasButtonImage") {
+    return <Img fluid={data.lisasButtonImage.childImageSharp.fluid} />
+  } else if (imageName == "quickCommsImage") {
+    return <Img fluid={data.quickCommsImage.childImageSharp.fluid} />
+  } else if (imageName == "ikeaBuilderImage") {
+    return <Img fluid={data.ikeaBuilderImage.childImageSharp.fluid} />
+  } else if (imageName == "plantingHyggeImage") {
+    return <Img fluid={data.plantingHyggeImage.childImageSharp.fluid} />
+  }
+}
+export default DynamicImage

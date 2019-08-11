@@ -12,7 +12,7 @@ const Name = styled.h1`
   text-align: left;
   font-family: montserrat;
   font-weight: 500;
-  color: #fe938c;
+  color: #e87461;
 `;
 
 const Text = styled.text`
@@ -26,7 +26,7 @@ const ContactPage = () => (
       <SEO title="Contact Me"/>
 
       <Row>
-        <Name>Contact Me</Name>
+        <Name>contact me.</Name>
       </Row>
 
 

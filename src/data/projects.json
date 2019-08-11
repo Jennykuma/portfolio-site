@@ -1,0 +1,32 @@
+{
+    "projectData": {
+        "projectPages": {
+            "projects": [
+                {
+                    "project": {
+                        "title": "Lisa's Button",
+                        "description": "WPF project done for Human Computer Interactions II (CPSC 581)"
+                    }
+                },
+                {
+                    "project": {
+                        "title": "Quick Comms Cap",
+                        "description": "RPi project done for Human Computer Interactions II (CPSC 581)"
+                    }
+                },
+                {
+                    "project": {
+                        "title": "Ikea Builder",
+                        "description": "Google Cardboard project done for Human Computer Interactions II (CPSC 581)"
+                    }
+                },
+                {
+                    "project": {
+                        "title": "Planting Hygge",
+                        "description": "Unity & Kinect project done for Human Computer Interactions II (CPSC 581)"
+                    }
+                }
+            ]
+        }
+    }
+}

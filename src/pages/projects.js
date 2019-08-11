@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
 
+import DynamicImage from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -12,7 +13,7 @@ const Name = styled.h1`
   text-align: left;
   font-family: montserrat;
   font-weight: 500;
-  color: #fe938c;
+  color: #e87461;
 `;
 
 const Text = styled.text`
@@ -20,12 +21,51 @@ const Text = styled.text`
     line-height: 1.5em;
 `;
 
+const Polaroid = styled.button`
+  position: relative;
+  background: #fff;
+  width: 300px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  border: 1px;	
+  -moz-box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.10);
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.10);
+`;
+
 const ProjectsPage = () => (
   <Layout>
     <Grid>
       <SEO title="Projects"/>
       <Row start="xs">
-        <Name>My Projects.</Name>
+        <Name>my projects.</Name>
+      </Row>
+      <Row start="xs">
+        <Polaroid>
+          <DynamicImage imageName={"lisasButtonImage"} />
+          <br />
+          <Text> Test Polaroid </Text>
+        </Polaroid>
+
+        <Polaroid>
+          <DynamicImage imageName={"quickCommsImage"} />
+          <br />
+          <Text> Test Polaroid </Text>
+        </Polaroid>
+
+        <Polaroid>
+          <DynamicImage imageName={"ikeaBuilderImage"} />
+          <br />
+          <Text> Test Polaroid </Text>
+        </Polaroid>
+
+        <Polaroid>
+          <DynamicImage imageName={"plantingHyggeImage"} />
+          <br />
+          <Text> Test Polaroid </Text>
+        </Polaroid>
+
       </Row>
     </Grid>
   </Layout>

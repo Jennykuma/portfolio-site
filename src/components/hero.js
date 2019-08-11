@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
 
-import Image from "../components/image"
+import DynamicImage from "../components/image"
 import SEO from "../components/seo"
 
 // Create a Title component that'll render an <h1> tag with some styles
@@ -12,7 +12,7 @@ const Name = styled.h1`
   text-align: left;
   font-family: montserrat;
   font-weight: 500;
-  color: #fe938c;
+  color: #e87461;
 `;
 
 const Text = styled.text`
@@ -27,11 +27,11 @@ const Hero = () => (
         <Row style={{ marginTop: `10%`}}>
             <Col xs={12} md={6} mdOffset={1} style={{ marginTop: `2%` }}>
                 <Row start="xs">
-                    <Name>I'm Jenny.</Name>
+                    <Name>i'm jenny.</Name>
                 </Row>
 
                 <Col xs={12} md={false} lg={false} xl={false} style={{ marginBottom: `5%` }}>
-                    <Image />
+                    <DynamicImage imageName={"headshotImage"} />
                 </Col>
 
                 <Row>
@@ -51,7 +51,7 @@ const Hero = () => (
                 <Row>
                     <Text>
                         Feel free to check out my&nbsp;
-                        <Link style={{ color: `#515151`, display: `inline`, backgroundImage: `linear-gradient(#fff 60%, #FFC5C1 55%)` }} to={/projects/}>
+                        <Link style={{ color: `#515151`, display: `inline`, backgroundImage: `linear-gradient(#fff 60%, #f2afa3 35%)` }} to={/projects/}>
                             projects
                         </Link>
                         .
@@ -60,7 +60,7 @@ const Hero = () => (
             </Col>
 
             <Col xs={false} mdOffset={1} md={3}>
-                <Image />
+                <DynamicImage imageName={"headshotImage"} />
             </Col>
         </Row>
 
