@@ -47,6 +47,7 @@ const ProjectsPage = () => (
 
       <Row start="xs">
         <Col xs={12} md={12} style={{ marginTop: `0%` }}>
+
           <Polaroid>
             <DynamicImage imageName={"lisasButtonImage"} />
             <br />
