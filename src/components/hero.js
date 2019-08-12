@@ -27,10 +27,13 @@ const Hero = () => (
         <Row style={{ marginTop: `10%`}}>
             <Col xs={12} md={6} mdOffset={1} style={{ marginTop: `2%` }}>
                 <Row start="xs">
-                    <Name>i'm jenny.</Name>
+                    <Text>hey there! I'm </Text>
+                </Row>
+                <Row start="xs">
+                    <Name>Jenny Le.</Name>
                 </Row>
 
-                <Col xs={12} md={false} lg={false} xl={false} style={{ marginBottom: `5%` }}>
+                <Col xs={false} md={false} lg={false} xl={false} style={{ marginBottom: `5%` }}>
                     <DynamicImage imageName={"headshotImage"} />
                 </Col>
 
@@ -43,7 +46,7 @@ const Hero = () => (
                 <br></br>
                 <Row>
                     <Text>
-                        I love creating beautiful experiences for others by creating websites or software. 
+                        I love creating beautiful experiences for others by creating websites or software. <br />
                         I also enjoy capturing special moments with my Sony a6000.
                     </Text>
                 </Row>

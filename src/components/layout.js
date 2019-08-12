@@ -34,10 +34,10 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
         <div
           style={{
-            margin: `0 auto`,
+            margin: `auto`,
             //maxWidth: 960,
-            width: `90%`,
-            padding: `0px 1.0875rem 1.45rem`,
+            width: `100%`,
+            padding: `0px 1rem`,
             paddingTop: 0,
             color: `#515151`,
           }}
