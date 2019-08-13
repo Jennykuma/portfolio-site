@@ -4,21 +4,21 @@
             "project": {
                 "title": "Lisa's Button",
                 "imageName": "lisasButtonImage",
-                "description": "WPF project done for Human Computer Interactions II (CPSC 581)"
+                "description": "WPF project - Human Computer Interactions II (CPSC 581)"
             }
         },
         {
             "project": {
                 "title": "Quick Comms Cap",
                 "imageName": "quickCommsImage",
-                "description": "RPi project done for Human Computer Interactions II (CPSC 581)"
+                "description": "RPi project - Human Computer Interactions II (CPSC 581)"
             }
         },
         {
             "project": {
                 "title": "Ikea Builder",
                 "imageName": "ikeaBuilderImage",
-                "description": "Google Cardboard project done for Human Computer Interactions II (CPSC 581)"
+                "description": "Google Cardboard project - Human Computer Interactions II (CPSC 581)"
             }
         },
         {
@@ -26,6 +26,27 @@
                 "title": "Planting Hygge",
                 "imageName": "plantingHyggeImage",
                 "description": "Unity & Kinect project done for Human Computer Interactions II (CPSC 581)"
+            }
+        },
+        {
+            "project": {
+                "title": "Temperature Anomalies",
+                "imageName": "lisasButtonImage",
+                "description": "D3.js temperature project done for Intro to Data Visualization (CPSC 583)"
+            }
+        },
+        {
+            "project": {
+                "title": "My Spotify Data",
+                "imageName": "lisasButtonImage",
+                "description": "D3.js spotify data project done for Intro to Data Visualization (CPSC 583)"
+            }
+        },
+        {
+            "project": {
+                "title": "Smartphone Market Shares 2010-2017",
+                "imageName": "lisasButtonImage",
+                "description": "D3.js market share data project done for Intro to Data Visualization (CPSC 583)"
             }
         }
     ]
