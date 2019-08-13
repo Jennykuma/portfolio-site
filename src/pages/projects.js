@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, Link, graphql } from "gatsby"
 import styled from 'styled-components'
 import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
 
@@ -37,40 +37,41 @@ const Polaroid = styled.button`
   }
 `;
 
+const ProjectPanel = (props) => {
+  const projectData = useStaticQuery(graphql`
+    query projectQuery {
+      dataJson {
+        projectData {
+         project {
+           title
+           description
+         }
+       }
+     }
+    }
+  `)
+}
+
+
 const ProjectsPage = () => (
   <Layout>
     <Grid> 
       <SEO title="Projects"/>
-      <Row start="xs">
+      <Row>
         <Name>my projects.</Name>
       </Row>
 
-      <Row start="xs">
-        <Col xs={12} md={12} style={{ marginTop: `0%` }}>
+      <Row>
+        <Col xs={12} md={12} lg={12} style={{ marginTop: `0%` }}>
 
-          <Polaroid>
-            <DynamicImage imageName={"lisasButtonImage"} />
-            <br />
-            <Text> Test Polaroid </Text>
-          </Polaroid>
-
-          <Polaroid>
-            <DynamicImage imageName={"quickCommsImage"} />
-            <br />
-            <Text> Test Polaroid </Text>
-          </Polaroid>
-
-          <Polaroid>
-            <DynamicImage imageName={"ikeaBuilderImage"} />
-            <br />
-            <Text> Test Polaroid </Text>
-          </Polaroid>
-
-          <Polaroid>
-            <DynamicImage imageName={"plantingHyggeImage"} />
-            <br />
-            <Text> Test Polaroid </Text>
-          </Polaroid>
+          {ProjectPanel.projectData.project.map((projectItem) => 
+            <Polaroid>
+              <DynamicImage imageName={projectItem.imageName} />
+              <br />
+              <Text> {projectItem.description} </Text>
+            </Polaroid>
+          )}
+          
         </Col>
       </Row>
     </Grid>

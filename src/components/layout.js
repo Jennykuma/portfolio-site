@@ -35,7 +35,6 @@ const Layout = ({ children }) => (
         <div
           style={{
             margin: `auto`,
-            //maxWidth: 960,
             width: `100%`,
             padding: `0px 1rem`,
             paddingTop: 0,

@@ -24,18 +24,15 @@ const Hero = () => (
     <Grid>
         <SEO title="Jenny's Portfolio"/>
 
-        <Row style={{ marginTop: `10%`}}>
-            <Col xs={12} md={6} mdOffset={1} style={{ marginTop: `2%` }}>
+        <Row>
+            <Col xs={12} md={6} lg={6} mdOffset={1} style={{ marginTop: `10%` }}>
+                
                 <Row start="xs">
                     <Text>hey there! I'm </Text>
                 </Row>
                 <Row start="xs">
                     <Name>Jenny Le.</Name>
                 </Row>
-
-                <Col xs={false} md={false} lg={false} xl={false} style={{ marginBottom: `5%` }}>
-                    <DynamicImage imageName={"headshotImage"} />
-                </Col>
 
                 <Row>
                     <Text>
@@ -60,10 +57,7 @@ const Hero = () => (
                         .
                     </Text>
                 </Row>
-            </Col>
-
-            <Col xs={false} mdOffset={1} md={3}>
-                <DynamicImage imageName={"headshotImage"} />
+                
             </Col>
         </Row>
 

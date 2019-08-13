@@ -3,24 +3,28 @@
         {
             "project": {
                 "title": "Lisa's Button",
+                "imageName": "lisasButtonImage",
                 "description": "WPF project done for Human Computer Interactions II (CPSC 581)"
             }
         },
         {
             "project": {
                 "title": "Quick Comms Cap",
+                "imageName": "quickCommsImage",
                 "description": "RPi project done for Human Computer Interactions II (CPSC 581)"
             }
         },
         {
             "project": {
                 "title": "Ikea Builder",
+                "imageName": "ikeaBuilderImage",
                 "description": "Google Cardboard project done for Human Computer Interactions II (CPSC 581)"
             }
         },
         {
             "project": {
                 "title": "Planting Hygge",
+                "imageName": "plantingHyggeImage",
                 "description": "Unity & Kinect project done for Human Computer Interactions II (CPSC 581)"
             }
         }
