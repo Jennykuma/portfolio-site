@@ -25,7 +25,7 @@ const Hero = () => (
         <SEO title="Jenny's Portfolio"/>
 
         <Row>
-            <Col xs={12} md={6} lg={6} mdOffset={1} style={{ marginTop: `10%` }}>
+            <Col xs={12} md={6} lg={6} mdOffset={1} style={{ marginTop: `9%` }}>
                 
                 <Row start="xs">
                     <Text>hey there! I'm </Text>

@@ -22,13 +22,12 @@ const Text = styled.text`
 
 const ContactPage = () => (
   <Layout>
-    <Grid>
+    <Grid style={{ marginTop: `-4%` }}>
       <SEO title="Contact Me"/>
 
       <Row>
         <Name>contact me.</Name>
       </Row>
-
 
     </Grid>
   </Layout>

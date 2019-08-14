@@ -31,21 +31,21 @@
         {
             "project": {
                 "title": "Temperature Anomalies",
-                "imageName": "lisasButtonImage",
+                "imageName": "temperatureAnomaliesImage",
                 "description": "D3.js temperature project done for Intro to Data Visualization (CPSC 583)"
             }
         },
         {
             "project": {
                 "title": "My Spotify Data",
-                "imageName": "lisasButtonImage",
+                "imageName": "mySpotifyDataImage",
                 "description": "D3.js spotify data project done for Intro to Data Visualization (CPSC 583)"
             }
         },
         {
             "project": {
                 "title": "Smartphone Market Shares 2010-2017",
-                "imageName": "lisasButtonImage",
+                "imageName": "smartphoneMarketSharesImage",
                 "description": "D3.js market share data project done for Intro to Data Visualization (CPSC 583)"
             }
         }

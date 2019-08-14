@@ -21,7 +21,7 @@ let projectPanelDiv = <ProjectPanel/>
 
 const ProjectsPage = () => (
   <Layout>
-    <Grid> 
+    <Grid style={{ marginTop: `-4%` }}> 
       <SEO title="Projects"/>
       <Row>
         <Name>my projects.</Name>

@@ -51,6 +51,27 @@ const DynamicImage = (props) => {
           }
         }
       }
+      temperatureAnomaliesImage: file(relativePath: { eq: "temperatureAnomalies.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      mySpotifyDataImage: file(relativePath: { eq: "mySpotifyData.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      smartphoneMarketSharesImage: file(relativePath: { eq: "smartphoneMarketShares.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -65,6 +86,12 @@ const DynamicImage = (props) => {
     return <Img fluid={data.ikeaBuilderImage.childImageSharp.fluid} />
   } else if (imageName == "plantingHyggeImage") {
     return <Img fluid={data.plantingHyggeImage.childImageSharp.fluid} />
+  } else if (imageName == "temperatureAnomaliesImage") {
+    return <Img fluid={data.temperatureAnomaliesImage.childImageSharp.fluid} />
+  } else if (imageName == "mySpotifyDataImage") {
+    return <Img fluid={data.mySpotifyDataImage.childImageSharp.fluid} />
+  } else if (imageName == "smartphoneMarketSharesImage") {
+    return <Img fluid={data.smartphoneMarketSharesImage.childImageSharp.fluid} />
   }
 }
 export default DynamicImage
