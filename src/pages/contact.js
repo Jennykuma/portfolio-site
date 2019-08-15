@@ -18,7 +18,7 @@ const Name = styled.h1`
 
 const ContactPage = () => (
   <Layout>
-    <Container style={{ marginTop: `-4%` }}> 
+    <Container> 
       <SEO title="Contact Me"/>
       <Row>
         <Name>contact me.</Name>

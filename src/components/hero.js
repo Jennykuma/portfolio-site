@@ -24,7 +24,7 @@ const Hero = () => (
     <Container>
         <SEO title="Jenny's Portfolio"/>
         <Row>
-            <Col xs="12" s="12" md="6" lg="6">
+            <Col xs="12" s="12" md="6" lg="6" style={{ marginTop: `0%`, paddingLeft: `0`, paddingRight: `0` }}>
                 <Row>
                     <Text>hey there! I'm</Text>
                 </Row>
@@ -48,7 +48,7 @@ const Hero = () => (
                 <Row>
                     <Text>
                         Feel free to check out my&nbsp;
-                        <Link style={{ color: `#515151`, display: `inline`, backgroundImage: `linear-gradient(#fff 60%, #f2afa3 35%)` }} to={/projects/}>
+                        <Link style={{ color: `#515151`, display: `inline`, backgroundImage: `linear-gradient(#fff 60%, #f2afa3 75%)` }} to={/projects/}>
                             projects
                         </Link>
                         .

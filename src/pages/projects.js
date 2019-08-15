@@ -21,14 +21,14 @@ let projectPanelDiv = <ProjectPanel/>
 
 const ProjectsPage = () => (
   <Layout>
-    <Container style={{ marginTop: `-4%` }}> 
+    <Container fluid> 
       <SEO title="Projects"/>
       <Row>
         <Name>my projects.</Name>
       </Row>
 
       <Row>
-        <Col xs={12} md={12} lg={12} style={{ marginTop: `0%` }}>
+        <Col xs={12} s={12} md={12} lg={12} style={{ paddingLeft: `0`, paddingRight: `0` }}>
           
           {projectPanelDiv}
 

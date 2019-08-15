@@ -14,7 +14,7 @@ const Polaroid = styled.button`
   background: #fff;
   width: 294px;
   padding: 0px 0px 15px 0px;
-  margin: 15px;
+  margin: 4px;
   text-align: center;
   border: 1px solid #f4f4f4;
 
@@ -45,7 +45,7 @@ const ProjectPanel = (props) => (
         {data.dataJson.projectData.map(projectItem => 
           <Polaroid>
             <DynamicImage imageName={projectItem.project.imageName} />
-            <br />
+            <p></p>
             <Text> {projectItem.project.description} </Text>
           </Polaroid>
         )}
