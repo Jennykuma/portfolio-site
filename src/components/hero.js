@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
-import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
 
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
+import { Container, Row, Col } from 'reactstrap'
 
 // Create a Title component that'll render an <h1> tag with some styles
 const Name = styled.h1`
@@ -21,19 +21,16 @@ const Text = styled.text`
 `;
 
 const Hero = () => (
-    <Grid>
+    <Container>
         <SEO title="Jenny's Portfolio"/>
-
         <Row>
-            <Col xs={12} md={6} lg={6} mdOffset={1} style={{ marginTop: `9%` }}>
-                
-                <Row start="xs">
-                    <Text>hey there! I'm </Text>
+            <Col xs="12" s="12" md="6" lg="6">
+                <Row>
+                    <Text>hey there! I'm</Text>
                 </Row>
-                <Row start="xs">
+                <Row>
                     <Name>Jenny Le.</Name>
                 </Row>
-
                 <Row>
                     <Text>
                         I am a fifth-year Computer Science student who is also concentrating in Human-Computer Interaction 
@@ -57,11 +54,9 @@ const Hero = () => (
                         .
                     </Text>
                 </Row>
-                
             </Col>
         </Row>
-
-    </Grid>
+    </Container>
 )
 
 export default Hero

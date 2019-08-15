@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, useStaticQuery, Link, graphql } from "gatsby"
 import styled from 'styled-components'
-import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
+import { Container, Row, Col } from "reactstrap"
 
 import DynamicImage from "../components/image"
 import Layout from "../components/layout"
@@ -21,7 +21,7 @@ let projectPanelDiv = <ProjectPanel/>
 
 const ProjectsPage = () => (
   <Layout>
-    <Grid style={{ marginTop: `-4%` }}> 
+    <Container style={{ marginTop: `-4%` }}> 
       <SEO title="Projects"/>
       <Row>
         <Name>my projects.</Name>
@@ -34,7 +34,7 @@ const ProjectsPage = () => (
 
         </Col>
       </Row>
-    </Grid>
+    </Container>
   </Layout>
 )
 

@@ -1,8 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+import { StaticQuery, useStaticQuery, Link, graphql } from "gatsby"
 import styled from 'styled-components'
-import { Grid, Col, Row } from 'react-styled-flexboxgrid' 
+import { Container, Row, Col } from "reactstrap"
 
+import DynamicImage from "../components/image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -15,21 +16,14 @@ const Name = styled.h1`
   color: #e87461;
 `;
 
-const Text = styled.text`
-    font-size: 0.9em;
-    line-height: 1.5em;
-`;
-
 const ContactPage = () => (
   <Layout>
-    <Grid style={{ marginTop: `-4%` }}>
+    <Container style={{ marginTop: `-4%` }}> 
       <SEO title="Contact Me"/>
-
       <Row>
         <Name>contact me.</Name>
       </Row>
-
-    </Grid>
+    </Container>
   </Layout>
 )
 

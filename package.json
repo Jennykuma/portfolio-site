@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.9.4",
     "gatsby-image": "^2.1.4",
     "gatsby-plugin-manifest": "^2.1.1",
@@ -15,10 +16,10 @@
     "gatsby-transformer-json": "^2.2.2",
     "gatsby-transformer-sharp": "^2.1.21",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
-    "react-styled-flexboxgrid": "^3.1.0",
+    "reactstrap": "^8.0.1",
     "styled-components": "^5.0.0-beta.5",
     "typeface-montserrat": "0.0.54",
     "typeface-varela-round": "0.0.71"

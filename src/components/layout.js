@@ -31,16 +31,16 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
         <div
           style={{
-            margin: `auto`,
-            width: `100%`,
-            padding: `0px 1rem`,
+            margin: `0 auto`,
+            maxWidth: 1280,
+            padding: `1rem`,
             paddingTop: 0,
             color: `#515151`,
           }}
         >
+          <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
           <main>{children}</main>
         </div>
       </>

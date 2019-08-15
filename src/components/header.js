@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import "../styles/header.css"
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header
