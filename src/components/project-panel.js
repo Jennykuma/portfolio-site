@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, Link, graphql, StaticQuery } from "gatsby"
 import styled from 'styled-components'
+import { Badge } from 'reactstrap'
 
 import DynamicImage from "../components/image"
 
@@ -45,6 +46,7 @@ const ProjectPanel = (props) => (
               title
               imageName
               description
+              tags
               link
             }
           }
@@ -54,15 +56,20 @@ const ProjectPanel = (props) => (
     render={data => (
       <>
         {data.dataJson.projectData.map(projectItem => 
-          <Polaroid to={projectItem.project.link}>
-            <DynamicImage imageName={projectItem.project.imageName} />
-
-            <Div>
-              <TitleText> <b>{projectItem.project.title} </b> </TitleText>
-              <br />
-              <DescText> {projectItem.project.description} </DescText>
-            </Div>
-          </Polaroid>
+          <Link to={projectItem.project.link}>
+            <Polaroid to={projectItem.project.link}>
+              <DynamicImage imageName={projectItem.project.imageName} />
+              <Div>
+                <TitleText> <b>{projectItem.project.title} </b> </TitleText>
+                <br />
+                <DescText> {projectItem.project.description} </DescText>
+                <p></p>
+                {projectItem.project.tags.map(tagItem =>
+                  <Badge color="light"> {tagItem} </Badge>
+                )}
+              </Div>
+            </Polaroid>
+          </Link>
         )}
       </>
     )}

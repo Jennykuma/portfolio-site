@@ -1,5 +1,5 @@
 ---
-path: /blog/test-post
+path: /projects/test-post
 title: test post
 date: 2019-08-14
 ---

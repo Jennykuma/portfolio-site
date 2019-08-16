@@ -1,5 +1,5 @@
 ---
-path: /blog/planting-hygge
+path: /projects/planting-hygge
 title: Planting Hygge
 date: 2017-12-04
 ---

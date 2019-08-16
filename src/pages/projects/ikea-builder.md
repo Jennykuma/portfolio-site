@@ -1,5 +1,5 @@
 ---
-path: /blog/ikea-builder
+path: /projects/ikea-builder
 title: The IKEA Builder
 date: 2017-11-13
 ---
