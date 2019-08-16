@@ -16,9 +16,9 @@ import Img from "gatsby-image"
 const DynamicImage = (props) => {
   const data = useStaticQuery(graphql`
     query {
-      headshotImage: file(relativePath: { eq: "headshot.jpg" }) {
+      jennykumaImage: file(relativePath: { eq: "jennykuma.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -76,8 +76,8 @@ const DynamicImage = (props) => {
   `)
 
   let imageName = props.imageName;
-  if (imageName == "headshotImage") {
-    return <Img fluid={data.headshotImage.childImageSharp.fluid} />
+  if (imageName == "jennykumaImage") {
+    return <Img fluid={data.jennykumaImage.childImageSharp.fluid} />
   } else if (imageName == "lisasButtonImage") {
     return <Img fluid={data.lisasButtonImage.childImageSharp.fluid} />
   } else if (imageName == "quickCommsImage") {
