@@ -2,6 +2,33 @@
     "projectData": [
         {
             "project": {
+                "title": "Temperature Anomalies",
+                "imageName": "temperatureAnomaliesImage",
+                "description": "A D3.js bubble scatter chart that visualizes different temperature anomalies for different regions of the world from 1987-2016",
+                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
+                "link": "/projects/temperature-anomalies"
+            }
+        },
+        {
+            "project": {
+                "title": "My Spotify Data",
+                "imageName": "mySpotifyDataImage",
+                "description": "A D3.js tree chart that visualizes my listening history and sorts it into songs, artists and genres",
+                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
+                "link": "/projects/my-spotify-data"
+            }
+        },
+        {
+            "project": {
+                "title": "Smartphone Market Shares",
+                "imageName": "smartphoneMarketSharesImage",
+                "description": "A D3.js pie chart that visualizes the global market share of shipments by smartphone vendors",
+                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
+                "link": "/projects/smartphone-market-shares"
+            }
+        },
+        {
+            "project": {
                 "title": "Lisa's Button",
                 "imageName": "lisasButtonImage",
                 "description": "A WPF program of a button that represents another student in my class where they recognize themselves when using it",
@@ -34,33 +61,6 @@
                 "description": "A Kinect interface that is a thought-provoking experience which helps the user to think about their friends and family while planting",
                 "tags": ["C#", "Unity", "Blender"],
                 "link": "/projects/planting-hygge"
-            }
-        },
-        {
-            "project": {
-                "title": "Temperature Anomalies",
-                "imageName": "temperatureAnomaliesImage",
-                "description": "A D3.js bubble scatter chart that visualizes different temperature anomalies for different regions of the world from 1987-2016",
-                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
-                "link": "/projects/temperature-anomalies"
-            }
-        },
-        {
-            "project": {
-                "title": "My Spotify Data",
-                "imageName": "mySpotifyDataImage",
-                "description": "A D3.js tree chart that visualizes my listening history and sorts it into songs, artists and genres",
-                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
-                "link": "/projects/my-spotify-data"
-            }
-        },
-        {
-            "project": {
-                "title": "Smartphone Market Shares",
-                "imageName": "smartphoneMarketSharesImage",
-                "description": "A D3.js pie chart that visualizes the global market share of shipments by smartphone vendors",
-                "tags": ["HTML", "CSS", "JavaScript", "D3.js"],
-                "link": "/projects/smartphone-market-shares"
             }
         }
     ]

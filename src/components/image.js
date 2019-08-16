@@ -23,7 +23,7 @@ const DynamicImage = (props) => {
           }
         }
       }
-      lisasButtonImage: file(relativePath: { eq: "theButton.png" }) {
+      lisasButtonImage: file(relativePath: { eq: "lisasButton.png" }) {
         childImageSharp {
           fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
