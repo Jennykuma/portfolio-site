@@ -13,6 +13,7 @@ import Header from "./header"
 import "../styles/layout.css"
 import "typeface-varela-round"
 import "typeface-montserrat"
+import "typeface-nunito-sans"
 
 const Layout = ({ children }) => (
   <StaticQuery
