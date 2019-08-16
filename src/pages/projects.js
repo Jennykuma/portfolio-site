@@ -9,12 +9,16 @@ import SEO from "../components/seo"
 import ProjectPanel from "../components/project-panel"
 
 // Create a Title component that'll render an <h1> tag with some styles
-const Name = styled.h1`
+const Headliner = styled.h1`
   font-size: 3em;
   text-align: left;
-  font-family: montserrat;
+  font-family: varela round;
   font-weight: 500;
   color: #e87461;
+`;
+
+const PanelDiv = styled.div`
+  width: 100%;
 `;
 
 let projectPanelDiv = <ProjectPanel/>
@@ -24,14 +28,12 @@ const ProjectsPage = () => (
     <Container fluid> 
       <SEO title="Projects"/>
       <Row>
-        <Name>my projects.</Name>
+        <Headliner>my projects: </Headliner>
       </Row>
 
       <Row>
-        <Col xs={12} s={12} md={12} lg={12} style={{ paddingLeft: `0`, paddingRight: `0` }}>
-          
+        <Col xs={{ size: 'auto', offset: 1 }} s={{ size: 'auto', offset: 0 }} md={{ size: 'auto', offset: 0 }} lg={{ size: 'auto', offset: 0 }} style={{ paddingLeft: 0, paddingRight: 0 }}>
           {projectPanelDiv}
-
         </Col>
       </Row>
     </Container>

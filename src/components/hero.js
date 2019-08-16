@@ -10,7 +10,7 @@ import { Container, Row, Col } from 'reactstrap'
 const Name = styled.h1`
   font-size: 3.5em;
   text-align: left;
-  font-family: montserrat;
+  font-family: varela round;
   font-weight: 500;
   color: #e87461;
 `;
@@ -18,13 +18,14 @@ const Name = styled.h1`
 const Text = styled.text`
     font-size: 0.9em;
     line-height: 1.5em;
+    font-family: nunito sans;
 `;
 
 const Hero = () => (
-    <Container>
+    <Container fluid>
         <SEO title="Jenny's Portfolio"/>
         <Row>
-            <Col xs="12" s="12" md="6" lg="6" style={{ marginTop: `0%`, paddingLeft: `0`, paddingRight: `0` }}>
+            <Col xs="12" s="12" md="6" lg="6" style={{ marginTop: `0%`, paddingLeft: `1rem`, paddingRight: `0` }}>
                 <Row>
                     <Text>hey there! I'm</Text>
                 </Row>

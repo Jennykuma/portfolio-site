@@ -40,7 +40,7 @@
             "project": {
                 "title": "Quick Communications Cap",
                 "imageName": "quickCommsImage",
-                "description": "An interactive wearable accessory that protects wearers by capturing images of predators and sending loved ones their location",
+                "description": "An interactive wearable accessory that protects wearers by subtly taking pictures of their predator and sending loved ones their location",
                 "tags": ["Python"],
                 "link": "/projects/quick-comms-cap"
             }

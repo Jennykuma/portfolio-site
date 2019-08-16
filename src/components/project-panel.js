@@ -6,11 +6,11 @@ import { Badge } from 'reactstrap'
 import DynamicImage from "../components/image"
 
 const Div = styled.div`
-  margin: 5%;
+  margin: 1% 5% 5% 5%;
 `;
 
 const TitleText = styled.text`
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 3em;
 `;
 
@@ -23,16 +23,18 @@ const DescText = styled.text`
 const Polaroid = styled.button`
   position: relative;
   background: #fff;
-  width: 375px;
-  padding: 0px 0px 15px 0px;
-  margin: 12px;
+  width: 21em;
+  padding: 0px 0px 0px 0px;
+  margin: 10px;
   text-align: left;
   border: 1px solid #f4f4f4;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  font-family: nunito sans;
 
   &:hover {
-    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.10);
-    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.10);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   }
 `;
 
