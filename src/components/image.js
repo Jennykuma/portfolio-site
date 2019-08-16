@@ -25,49 +25,49 @@ const DynamicImage = (props) => {
       }
       lisasButtonImage: file(relativePath: { eq: "theButton.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       quickCommsImage: file(relativePath: { eq: "physicalComputing.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       ikeaBuilderImage: file(relativePath: { eq: "ikeaBuilder.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       plantingHyggeImage: file(relativePath: { eq: "plantingHygge.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      temperatureAnomaliesImage: file(relativePath: { eq: "temperatureAnomalies.png" }) {
+      temperatureAnomaliesImage: file(relativePath: { eq: "tempAnomalies.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       mySpotifyDataImage: file(relativePath: { eq: "mySpotifyData.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }
       }
       smartphoneMarketSharesImage: file(relativePath: { eq: "smartphoneMarketShares.png" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 400) {
             ...GatsbyImageSharpFluid
           }
         }

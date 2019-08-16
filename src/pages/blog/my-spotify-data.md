@@ -1,0 +1,5 @@
+---
+path: /blog/my-spotify-data
+title: Visualizing My Spotify Data
+date: 2017-11-22
+---

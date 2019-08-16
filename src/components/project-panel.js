@@ -4,18 +4,28 @@ import styled from 'styled-components'
 
 import DynamicImage from "../components/image"
 
-const Text = styled.text`
+const Div = styled.div`
+  margin: 5%;
+`;
+
+const TitleText = styled.text`
   font-size: 0.9em;
-  line-height: 1.5em;
+  line-height: 3em;
+`;
+
+const DescText = styled.text`
+  font-size: 0.9em;
+  line-height: 0.1em;
+  color: #a5a5a5;
 `;
 
 const Polaroid = styled.button`
   position: relative;
   background: #fff;
-  width: 294px;
+  width: 375px;
   padding: 0px 0px 15px 0px;
-  margin: 4px;
-  text-align: center;
+  margin: 12px;
+  text-align: left;
   border: 1px solid #f4f4f4;
 
   &:hover {
@@ -35,6 +45,7 @@ const ProjectPanel = (props) => (
               title
               imageName
               description
+              link
             }
           }
         }
@@ -43,10 +54,14 @@ const ProjectPanel = (props) => (
     render={data => (
       <>
         {data.dataJson.projectData.map(projectItem => 
-          <Polaroid>
+          <Polaroid to={projectItem.project.link}>
             <DynamicImage imageName={projectItem.project.imageName} />
-            <p></p>
-            <Text> {projectItem.project.description} </Text>
+
+            <Div>
+              <TitleText> <b>{projectItem.project.title} </b> </TitleText>
+              <br />
+              <DescText> {projectItem.project.description} </DescText>
+            </Div>
           </Polaroid>
         )}
       </>
