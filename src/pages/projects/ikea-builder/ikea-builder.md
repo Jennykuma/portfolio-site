@@ -22,7 +22,7 @@ These are some sketches that I did for brainstorming what I could do for this as
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ![Initial Sketch 1](./initial-1.jpg) | ![Initial Sketch 2](./initial-2.jpg) | ![Initial Sketch 3](./initial-3.jpg) | ![Initial Sketch 4](./initial-4.jpg) | ![Initial Sketch 5](./initial-5.jpg) | ![Initial Sketch 6](./initial-6.jpg) | ![Initial Sketch 7](./initial-7.jpg) | ![Initial Sketch 8](./initial-8.jpg) | ![Initial Sketch 9](./initial-9.jpg) | ![Initial Sketch 10](./initial-10.jpg) | ![Initial Sketch 11](./initial-11.jpg) | ![Initial Sketch 12](./initial-12.jpg) |
+| ![Initial Sketch 1](./initial-1.jpg " ") | ![Initial Sketch 2](./initial-2.jpg " ") | ![Initial Sketch 3](./initial-3.jpg " ") | ![Initial Sketch 4](./initial-4.jpg " ") | ![Initial Sketch 5](./initial-5.jpg " ") | ![Initial Sketch 6](./initial-6.jpg " ") | ![Initial Sketch 7](./initial-7.jpg " ") | ![Initial Sketch 8](./initial-8.jpg " ") | ![Initial Sketch 9](./initial-9.jpg " ") | ![Initial Sketch 10](./initial-10.jpg " ") | ![Initial Sketch 11](./initial-11.jpg " ") | ![Initial Sketch 12](./initial-12.jpg " ") |
 1. **Cooking Simulator** - Derived from the game Overcooked. I wanted to create a simulator that would those who want to learn how to cook. You would use a Joy-Con or Wii controller as utensils. The user would learn many recipes without having to be in the kitchen! 
 
 2. **Underwater Simulator** - This would be an educational simulator for those who are scared of swimming underwater or want to see some animals that live underwater. Hovering over different animals will bring up facts and information about them so that the user can learn more. 
@@ -143,7 +143,7 @@ I learned many things like using Audacity for editing recorded sound effects and
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|
-| ![Progress 1](./progress-1.png) | ![Progress 2](./progress-2.jpg) | ![Progress 3](./progress-3.jpg) | ![Progress 4](./progress-4.jpg) |
+| ![Progress 1](./progress-1.png "IKEA Instructions") | ![Progress 2](./progress-2.jpg "Building with Parts") | ![Progress 3](./progress-3.jpg "Guidance Panels") | ![Progress 4](./progress-4.jpg "Table made in Blender") |
 
 This project was fun to do, but it was tough going from not knowing any Unity to having to know Unity for this assignment. A lot of time was spent on trying to do simple things. I spent hours on troubleshooting the Raycast stuff when it already was working. For some reason, you need to tap directly on the object on the phone while you can click anywhere on the desktop program. 
 

@@ -22,13 +22,13 @@ const Text = styled.text`
 `;
 
 const StyledLink = styled(props => <a {...props} />)`
-    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #e87461 85%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #f2afa4 75%);
     color: #333333; 
-
+    
     &:hover {
         color: #333333;
         text-decoration: none;
-        background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #f2afa4 85%);
+        background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #e87461 75%);
   }
 `;
 
@@ -63,9 +63,9 @@ const AboutPage = () => (
                         <p></p>
                         When I am not building web applications, I am probably using my Sony a6000 to capture moments and putting them 
                         up on <StyledLink target="_blank" href="https://www.instagram.com/jiku.ma/">instagram</StyledLink>. I also use some of my spare time to do coding 
-                        problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">codewars</StyledLink> or read news articles. 
+                        problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">codewars</StyledLink>, read news articles, or game. 
                         <p></p>
-                        I love to take photos, travel, try new foods, and play sports (Team sports & Minesweeper)!
+                        I love to take photos, travel, try new foods, and play sports (team sports & Minesweeper)!
                         <p></p>
                         Send me a message via email or LinkedIn if you ever want to chat!
                         <br />

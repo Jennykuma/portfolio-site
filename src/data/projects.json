@@ -41,7 +41,7 @@
                 "title": "Quick Communications Cap",
                 "imageName": "quickCommsImage",
                 "description": "An interactive wearable cap that protects wearers by subtly taking pictures of their predator and sending loved ones their location",
-                "tags": ["Python", "RPi"],
+                "tags": ["Python", "Raspberry Pi"],
                 "link": "/projects/quick-comms-cap"
             }
         },

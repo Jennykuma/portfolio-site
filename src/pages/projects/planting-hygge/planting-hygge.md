@@ -22,12 +22,12 @@ This is a list of all of the ideas I could come up with through Googling and tal
 
 The reason why I made a list of hygge inducing things is because I wanted to learn more about hygge and what I could do with my project.
 
-![Brainstorming Image 1](./brainstorming-1.jpg)
+![Brainstorming Image 1](./brainstorming-1.jpg "Hygge Brainstorming")
 
 ##### Moodboard
 | &nbsp; | &nbsp; |
 |:-:|:-:|
-| ![Moodboard 1](./moodboard-1.png) | ![Moodboard 2](./moodboard-2.png) |
+| ![Moodboard 1](./moodboard-1.png "Hygge Moodboard") | ![Moodboard 2](./moodboard-2.png "Succulent Moodboard") |
 
 To gain some more ideas about Hygge, I decided to go on Pinterest to look at some relatable images. While on Pinterest, I realized that Hygge images had a warm colour, leaning towards whites and yellows. 
 Through this observation, I wanted to go with something green but with a hint in yellow in the colour. 
@@ -42,7 +42,7 @@ This is what I wanted my Hygge aesthetic to be relevant to.
 ##### Initial
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ![Initial Sketch 1](./initial-1.jpg) | ![Initial Sketch 2](./initial-2.jpg) | ![Initial Sketch 3](./initial-3.jpg) | ![Initial Sketch 4](./initial-4.jpg) | ![Initial Sketch 5](./initial-5.jpg) | ![Initial Sketch 6](./initial-6.jpg) | ![Initial Sketch 7](./initial-7.jpg) | ![Initial Sketch 8](./initial-8.jpg) | ![Initial Sketch 9](./initial-9.jpg) | ![Initial Sketch 10](./initial-10.jpg) | ![Initial Sketch 11](./initial-11.jpg) | ![Initial Sketch 12](./initial-12.jpg) |
+| ![Initial Sketch 1](./initial-1.jpg " ") | ![Initial Sketch 2](./initial-2.jpg " ") | ![Initial Sketch 3](./initial-3.jpg " ") | ![Initial Sketch 4](./initial-4.jpg " ") | ![Initial Sketch 5](./initial-5.jpg " ") | ![Initial Sketch 6](./initial-6.jpg " ") | ![Initial Sketch 7](./initial-7.jpg " ") | ![Initial Sketch 8](./initial-8.jpg " ") | ![Initial Sketch 9](./initial-9.jpg " ") | ![Initial Sketch 10](./initial-10.jpg " ") | ![Initial Sketch 11](./initial-11.jpg " ") | ![Initial Sketch 12](./initial-12.jpg " ") |
 These are some sketches that I did for brainstorming what I could do for this assignment:
 
 1. **The Gift Box** - This concept consists of an individual receiving something in the mail. From there, they will be able to interactive with items within the gift box to bring up certain memories and reflect on times shared with friends and family. 
@@ -106,7 +106,7 @@ I only used variation #4 (Choosing your own pot) as a feature in my prototype. I
 #### Planting Hygge
 ##### About
 Planting Hygge is a thought-provoking experience which causes the user to consider their friends and family while dealing with plants. The general flow of the experience is to start off the user with choosing their own pot to plant in. From there, they will go through a series of questions to determine which plant they will end up with as an end result. Click the image below to view the concept sketch. 
-![Concept Sketch 1](./concept-1.jpg)
+![Concept Sketch 1](./concept-1.jpg "Planting Hygge Concept Sketch")
 
 ##### First Storyboard
 | &nbsp; | &nbsp; | &nbsp; |
@@ -117,7 +117,7 @@ This storyboard was drawn first to get the ball rolling. I wanted to see what th
 ##### Second Storyboard
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|
-| ![Storyboard 1](./second-storyboard-1.jpg) | ![Storyboard 2](./second-storyboard-2.jpg) | ![Storyboard 3](./second-storyboard-3.jpg) | ![Storyboard 4](./second-storyboard-4.png) |
+| ![Storyboard 1](./second-storyboard-1.jpg) | ![Storyboard 2](./second-storyboard-2.jpg) | ![Storyboard 3](./second-storyboard-3.jpg "Pot Selection") | ![Storyboard 4](./second-storyboard-4.png "Option Map") |
 This storyboard was drawn after I started to implement the program on Unity. This is a more realistic storyboard as I realized my time constraints and the difficulty when it was time to implement code. I was quite saddened by the reality of the storyboard, but if I were to work more on this project, I would definitely try to implement most of my variations and the features in the storyboard above. The user would again start off by choosing their pot, and then they would select items that correspond to the question being asked on screen. After answering questions for a number of times, the user would then be presented with a special plant which is unique to their answers. The third image is a page of pot sketches as I was researching different pots to implement in Unity. And the fourth image is a quick layout of answer patterns that result in certain plants to show up. The first question heavily dictates which plant will be received in the end because the more times you see your friends, the more leaves the plant will appear to have.
 
 ##### Progress

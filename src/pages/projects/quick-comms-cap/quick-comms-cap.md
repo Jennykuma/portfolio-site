@@ -18,7 +18,7 @@ Harassment of all types is still a big issue in this day and age, and I wanted t
 #### Brainstorming
 Below is an image of some ideas that were listed during my brainstorming process.
 
-![Brainstorming Image 1](./brainstorming-1.jpg)
+![Brainstorming Image 1](./brainstorming-1.jpg "Brainstorm List")
 
 #### How My Idea Came To Be
 ##### Talking to my best friends
@@ -51,7 +51,7 @@ I also managed to write down some pros and cons for each idea!
 
 ##### Hat Variation Sketches
 Some variations of the hat that came out of the brainstorming phase:
-![Variation Sketch 1](./variation-1.jpg)
+![Variation Sketch 1](./variation-1.jpg "Hat Variations")
 1. **Camera at the back** - This was definitely a must if I were to go on with the hat idea. 
 2. **Music control buttons** - Similar to buttons on earbuds, but on the hat. 
 3. **Lights on the rim** - To make it flashy! 
@@ -106,10 +106,10 @@ I had a lot of fun with this project even though I was in a huge time crunch. It
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|:-:|
-| ![Progress 1](./progress-1.jpg) | ![Progress 2](./progress-2.jpg) | ![Progress 3](./progress-3.jpg) | ![Progress 4](./progress-4.jpg) | ![Progress 5](./progress-5.jpg) |
+| ![Progress 1](./progress-1.jpg "LEDs are in!") | ![Progress 2](./progress-2.jpg "Fancy light show") | ![Progress 3](./progress-3.jpg "Yay wires!") | ![Progress 4](./progress-4.jpg "GPIO Nightmare") | ![Progress 5](./progress-5.jpg "Tidying Up") |
 ##### Screenshot
 Example of an email a recipient would receive:
-![Email 1](./email-1.png)
+![Email 1](./email-1.png "Sample email")
 
 ##### Helpful Links
 These guides and support helped me a lot!

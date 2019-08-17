@@ -21,25 +21,21 @@ We kept discussing herself until time was up.
 By the end of the interview, I thought I would have gotten it all down, but I still didn't know what to make for her. 
 One thing I knew for sure was that she is a quirky individual with a love for classical music and many interesting things.
 
-Click on the image below to view my interview notes. 
-
-![Interview Notes 1](./interview-notes-1.jpg)
+![Interview Notes 1](./interview-notes-1.jpg "Interview Notes")
 
 ##### Second Interview
 As I was working on the project, I wanted to get more information on what Lisa likes. I did a mini interview through Slack. This interview was really helpful because I found out that she likes camping, spaceships, and many more things. This gave me enough foundation to make my project head in a certain direction. 
 
 This interview gave me different ideas for backgrounds, situations and music which would then be incorporated in my project. I learned that I should not rely on a single interview, and never be afraid to ask your client for more clarification. 
 
-Below is a snippet of the conversation I had with her on Slack.
-
-![Interview Notes 2](./interview-notes-2.jpg)
+![Interview Notes 2](./interview-notes-2.jpg "Slack Conversation")
 
 ---
 #### Low-Fi Prototyping - Sketches
 ##### Initial
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-| - | - | - | - | - |
-| ![Initial Sketch 1](./initial-1.jpg) | ![Initial Sketch 2](./initiall-2.png) | ![Initial Sketch 3](./initial-3.png) | ![Initial Sketch 4](./initial-4.jpg) | ![Initial Sketch 5](./initial-5.png)
+|:-:|:-:|:-:|:-:|:-:|
+| ![Initial Sketches](./initial-1.jpg) | ![Lego Corgi](./initiall-2.png) | ![WPF Button](./initial-3.png) | ![In-Depth Sketches](./initial-4.jpg) | ![:ego Corgi Cont](./initial-5.png)
 The first couple images are what I had envisioned what Lisa's button would look like: 
 1. **A Pin** - I was thinking about the aestetics and how she could wear it. It could even look kind of flashy on her! 
 2. **Lisa Button** - This was inspired by the Staples 'That was easy' button. I wanted it to play music or something like that. 
@@ -55,7 +51,7 @@ The first couple images are what I had envisioned what Lisa's button would look 
 ##### Refinement
 &nbsp; | &nbsp;
 :-: | :-:
-![Refinement Sketch 1](./refinement-1.png)  |  ![Refinement Sketch 2](./refinement-2.png)
+![List of Stickers](./refinement-1.png)  |  ![Button Design](./refinement-2.png)
 
 The above images display ideas about Lisa's button and a list of what could be turned into stickers. 
 
