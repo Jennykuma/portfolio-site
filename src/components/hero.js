@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
+import { Container, Row, Col } from 'reactstrap'
+import { FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
 
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
-import { Container, Row, Col } from 'reactstrap'
-import { FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
 
 // Create a Title component that'll render an <h1> tag with some styles
 const Name = styled.h1`
@@ -56,31 +56,17 @@ const Hero = () => (
                 <Row>
                     <Name>Jenny Le.</Name>
                 </Row>
-                <Row style={{ marginBottom: `1%` }}>
+                <Row>
                     <Text>
                         I am a fifth-year Computer Science student who is also concentrating in Human-Computer Interaction 
                         at the University of Calgary.
-                    </Text>
-                </Row>
-                
-                <Row style={{ marginBottom: `1%` }}>
-                    <Text>
+                        <p></p>
                         I love creating beautiful experiences for others through websites or software. <br />
                         I also enjoy capturing special moments with my Sony a6000.
+                        <p></p>
+                        Feel free to check out my&nbsp; <StyledLink to={/projects/}>projects</StyledLink>.
                     </Text>
-                </Row>
-                
-                <Row>
-                    <Text>
-                        Feel free to check out my&nbsp;
-                        <StyledLink to={/projects/}>
-                            projects
-                        </StyledLink>
-                        .
-                    </Text>
-                </Row>
-                <Row>
-                    <IconLink href={"mailto:" + "jennycantcode@gmail.com"}>
+                    <IconLink href={"mailto:" + "jenny.le@ucalgary.ca"}>
                         <FaRegEnvelope style={{marginRight: `10px`}}/>
                     </IconLink>
 

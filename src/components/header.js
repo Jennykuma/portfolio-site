@@ -12,7 +12,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 	color: #333333;
 
 	&:hover {
-		color: #f2afa4;
+		color: #e87461;
 		text-decoration: none;
 	}
 `;
@@ -21,7 +21,7 @@ const Header = ({ siteTitle, menuLinks }) => (
   <header
     style={{
       background: `white`,
-      marginBottom: `2.5rem`,
+      marginBottom: `2rem`,
     }}
   >
     <div>
