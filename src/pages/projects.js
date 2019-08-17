@@ -17,10 +17,6 @@ const Headliner = styled.h1`
   color: #e87461;
 `;
 
-const PanelDiv = styled.div`
-  width: 100%;
-`;
-
 let projectPanelDiv = <ProjectPanel/>
 
 const ProjectsPage = () => (

@@ -55,15 +55,17 @@ const AboutPage = () => (
                         I built my first ever website using <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Webs_(web_hosting)">freewebs</StyledLink>. It 
                         had butterflies, music and a ton of links! It was awesome.
                         <br />
-                        From that experience, I got into <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Tumblr">tumblr</StyledLink> and started making templates.
+                        Later on from that experience, I got into <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Tumblr">tumblr</StyledLink> and started making themes.
                         <br />
                         Since then, I've been (and still am) improving the way that I build websites and software.
+                        <br />
+                        I've been open to looking at things in everyday life with different perspectives and it has helped me grow as a developer and person.
                         <p></p>
                         When I am not building web applications, I am probably using my Sony a6000 to capture moments and putting them 
                         up on <StyledLink target="_blank" href="https://www.instagram.com/jiku.ma/">instagram</StyledLink>. I also use some of my spare time to do coding 
                         problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">codewars</StyledLink> or read news articles. 
                         <p></p>
-                        I love to take photos, travel, try new food, and play sports (Team sports & Minesweeper)!
+                        I love to take photos, travel, try new foods, and play sports (Team sports & Minesweeper)!
                         <p></p>
                         Send me a message via email or LinkedIn if you ever want to chat!
                         <br />

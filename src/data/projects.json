@@ -32,7 +32,7 @@
                 "title": "Lisa's Button",
                 "imageName": "lisasButtonImage",
                 "description": "A WPF program of a button that represents another student in my class where they recognize themselves when using it",
-                "tags": ["C#", "XAML"],
+                "tags": ["C#", "XAML", "WPF"],
                 "link": "/projects/lisas-button"
             }
         },
@@ -41,16 +41,16 @@
                 "title": "Quick Communications Cap",
                 "imageName": "quickCommsImage",
                 "description": "An interactive wearable cap that protects wearers by subtly taking pictures of their predator and sending loved ones their location",
-                "tags": ["Python"],
+                "tags": ["Python", "RPi"],
                 "link": "/projects/quick-comms-cap"
             }
         },
         {
             "project": {
-                "title": "The IKEA Builder",
+                "title": "The IKEA Furniture Simulator",
                 "imageName": "ikeaBuilderImage",
                 "description": "A Google Cardboard interface that lets those simulate building select IKEA furniture before buying it to prevent nervousness in the future",
-                "tags": ["C#", "Unity", "Blender"],
+                "tags": ["C#", "Unity", "Blender", "Google Cardboard"],
                 "link": "/projects/ikea-builder"
             }
         },
@@ -59,7 +59,7 @@
                 "title": "Planting Hygge",
                 "imageName": "plantingHyggeImage",
                 "description": "A Kinect interface that is a thought-provoking experience which helps the user to think about their friends and family while planting",
-                "tags": ["C#", "Unity", "Blender"],
+                "tags": ["C#", "Unity", "Blender", "Kinect"],
                 "link": "/projects/planting-hygge"
             }
         }
