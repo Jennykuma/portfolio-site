@@ -24,7 +24,7 @@ const ProjectsPage = () => (
     <Container fluid> 
       <SEO title="Projects"/>
       <Row>
-        <Headliner>my projects: </Headliner>
+        <Headliner>projects:</Headliner>
       </Row>
 
       <Row>

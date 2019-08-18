@@ -44,7 +44,6 @@ const StyledExtLink = styled(props => <a {...props} />)`
   }
 `;
 
-
 const IconLink = styled.a`
     color: #e87461;
 
@@ -66,7 +65,7 @@ const Hero = () => (
                     <Text>hey there! I'm</Text>
                 </Row>
                 <Row>
-                    <Name>jenny le.</Name>
+                    <Name>Jenny Le.</Name>
                 </Row>
                 <Row>
                     <Text>

@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Fade from "react-reveal/Fade"
 
 import Header from "./header"
 import "../styles/layout.css"
@@ -41,8 +42,10 @@ const Layout = ({ children }) => (
             color: `#515151`,
           }}
         >
-          <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
-          <main>{children}</main>
+            <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+          <Fade bottom distance={`50px`}>
+            <main>{children}</main>
+          </Fade>
         </div>
       </>
     )}

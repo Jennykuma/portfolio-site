@@ -28,7 +28,7 @@ const Text = styled.text`
 `;
 
 const Header = ({ siteTitle, menuLinks }) => (
-  <Headroom>
+  <Headroom style={{ paddingRight: `0`, paddingLeft: `0`}}>
     <header
       style={{
         background: `white`,
@@ -43,12 +43,9 @@ const Header = ({ siteTitle, menuLinks }) => (
               display: `flex`,
               marginLeft: 0,
               justifyContent: `flex-end`,
-              //justifyContent: `flex-end`
             }}
           >
-            <Text style={{ padding: `1.2rem 0 1rem 0`, marginRight: `auto` } }>
-              helo
-            </Text>
+            <StyledLink style={{ padding: `1.1rem 0 1rem 0`, marginRight: `auto`, fontSize: `1em` }} to={"/"}>jle.</StyledLink>
             {menuLinks.map(link => (
               <li
                 key={link.name}

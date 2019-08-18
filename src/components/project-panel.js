@@ -25,7 +25,7 @@ const Polaroid = styled.button`
   background: #fff;
   width: 360px;
   padding: 0px 0px 0px 0px;
-  margin: 2%;
+  margin: 1% 2% 2% 2%;
   text-align: left;
   border: 1px solid #f4f4f4;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);

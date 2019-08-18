@@ -25,7 +25,7 @@ const DynamicImage = (props) => {
       }
       jennykumaIconImage: file(relativePath: { eq: "jennykuma-icon.png" }) {
         childImageSharp {
-          fluid(maxWidth: 400) {
+          fluid(maxWidth: 5) {
             ...GatsbyImageSharpFluid
           }
         }
