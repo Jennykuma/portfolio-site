@@ -5,11 +5,27 @@ date: 2017-12-04
 featuredImage: ./plantingHygge-featured.png
 ---
 ---
+#### Information
+###### Team Member(s) 
+Jenny Le
+###### Future Audience 
+People who enjoy planting or like succulents. Also for those who want to reflect back on themselves and their friendships. 
+###### Status 
+Functional prototype somewhat working
+###### Language(s) & Software 
+Used C#, Unity, Blender, Audacity
+###### Type 
+Class project
+###### Schedule
+Nov 16 - Dec 5 2017
+
+---
 #### Challenge
 Create an interface using the Kinect V2 to create a Hygge aesthetic. 
 
 No kawaii or holiday aspects are allowed to be in the project.
 
+---
 #### Problem Statement
 Hygge. It is the Danish word used when acknowledging a feeling or moment, whether alone or with friends, 
 at home or out, ordinary or extraordinary as cosy, charming or special. (Definition from http://hyggehouse.com/hygge) 
@@ -17,6 +33,7 @@ at home or out, ordinary or extraordinary as cosy, charming or special. (Definit
 Going into this project was kind of overwhelming for me because I did not know what Hygge was to begin with. 
 I wanted to make sure the Hygge aesthetic was shown significantly because this is what our project is about. 
 Whether the individual is alone or with friends, the feeling of coziness must be present. 
+
 #### Brainstorming
 This is a list of all of the ideas I could come up with through Googling and talking to some friends. 
 
@@ -128,6 +145,7 @@ The above video shows some of the early progress I got in the implementation sta
 ##### If I had more time...
 If I were given one more week to work on this project, I would definitely work on this everyday. The time spent on this project compared to my IKEA Furniture Simulator is nowhere close to that. The deadline for this project was shorter than all of the other projects for this class. I would definitely implement features from the variation sketches as well as in the first storyboard. Such as making the soil turn into water, placing rocks and moss for decoration, and the zen features. I would also clean up the bugs and find a way to implement my code more cleaner. Furthermore, I would definitely create more of the assets instead of finding them online and also expand my decision tree to add more plants and questions.
 
+---
 ##### Helpful Links
 These guides and support helped me a lot!
 
@@ -148,10 +166,10 @@ These guides and support helped me a lot!
 ---
 #### Code
 ##### GitHub
-GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/blob/master/P3/Hand.cs">Click here</a>
+GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/blob/master/P3/Hand.cs">https://github.com/Jennykuma/CPSC-581/blob/master/P3/Hand.cs</a>
 
 ##### Download the Project
-Executable: <a target="_blank" href="https://www.dropbox.com/s/7op96nsqo4x4l47/PlantingHygge.zip?dl=0">Click here</a>
+Executable: <a target="_blank" href="https://www.dropbox.com/s/7op96nsqo4x4l47/PlantingHygge.zip?dl=0">https://www.dropbox.com/s/7op96nsqo4x4l47/PlantingHygge.zip?dl=0</a>
 
 Instructions:
 - Download the executable and unzip it to a directory
@@ -160,4 +178,4 @@ Instructions:
 
 ---
 #### Working Prototype
-youtube: <a href="https://www.youtube.com/watch?v=5kR6Y4IyoAI" target="_blank">https://www.youtube.com/watch?v=5kR6Y4IyoAI</a>
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/5kR6Y4IyoAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

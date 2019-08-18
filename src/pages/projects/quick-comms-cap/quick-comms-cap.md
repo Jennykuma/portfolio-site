@@ -5,11 +5,29 @@ date: 2017-10-13
 featuredImage: ./quickCommsCap-featured.png
 ---
 ---
+#### Information
+###### Team Member(s) 
+Jenny Le
+###### Future Audience 
+People of all genders who want to feel protected from predators when walking alone at night/during the day.
+###### Status 
+Functional prototype completed
+###### Language(s) Used 
+Python
+###### Type 
+Class project
+###### Schedule 
+October 5 - 17, 2017
+
+
+---
 #### Challenge
 Create an "interactive wearable accessory" that enhances the experience of its wearer. Wearable technology is on the rise, including examples of electronic fashion.
 
 For this project, I was expected to go beyond the obvious (no watches, bracelets, or wrist-adornment),
 and use physical computing (e.g., Raspberry Pi or Arduino) to create an "interactive wearable accessory".
+
+---
 #### Problem Statement
 For this project, I wanted to bring up the problem of sexual harassment, being stalked, and feeling unsafe when you shouldn't need to. 
 
@@ -111,6 +129,7 @@ I had a lot of fun with this project even though I was in a huge time crunch. It
 Example of an email a recipient would receive:
 ![Email 1](./email-1.png "Sample email")
 
+---
 ##### Helpful Links
 These guides and support helped me a lot!
 
@@ -123,13 +142,13 @@ These guides and support helped me a lot!
 ---
 #### Code
 ##### GitHub
-GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/blob/master/P1/hatFinalVer.py">Click here</a>
+GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/blob/master/P1/hatFinalVer.py">https://github.com/Jennykuma/CPSC-581/blob/master/P1/hatFinalVer.py</a>
 
 ##### Download the Project
-.py download: <a target="_blank" href="https://www.dropbox.com/s/hv2ru28xcmsisom/hatFinalVer.py?dl=0">Click here</a>
+.py download: <a target="_blank" href="https://www.dropbox.com/s/hv2ru28xcmsisom/hatFinalVer.py?dl=0">ttps://www.dropbox.com/s/hv2ru28xcmsisom/hatFinalVer.py?dl=0</a>
 
-Instructions: <a target="_blank" href="https://www.dropbox.com/s/wshx9selw71ycee/Instruction.pdf?dl=0">Click here</a>
+Instructions: <a target="_blank" href="https://www.dropbox.com/s/wshx9selw71ycee/Instruction.pdf?dl=0">https://www.dropbox.com/s/wshx9selw71ycee/Instruction.pdf?dl=0</a>
         
 ---
 #### Working Prototype
-youtube: <a href="https://www.youtube.com/watch?v=wiZTTenyB3c" target="_blank">https://www.youtube.com/watch?v=wiZTTenyB3c</a>
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/wiZTTenyB3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

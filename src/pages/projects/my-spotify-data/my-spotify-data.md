@@ -72,8 +72,10 @@ I also like how the user can explore and play around with the nodes without expe
 GitHub Repository: <a target="_blank" href="https://github.com/Jennykuma/CPSC-583/tree/master/P2">https://github.com/Jennykuma/CPSC-583/tree/master/P2</a>
 
 ##### Working Webpage
-Click: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P2/index.html">https://jennykuma.github.io/CPSC583/P2/index.html</a>
+Visit: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P2/index.html">https://jennykuma.github.io/CPSC583/P2/index.html</a>
 
 ---
 #### Working Prototype
-Youtube: <a target="_blank" href="https://youtu.be/AdZMxk9ZLD4?t=92">https://youtu.be/AdZMxk9ZLD4?t=92</a>
+Skip to 1:30
+
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/AdZMxk9ZLD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

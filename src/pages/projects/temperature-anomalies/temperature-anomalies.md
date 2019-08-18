@@ -76,8 +76,10 @@ I also really like the option to create a connected scatterplot with the data po
 GitHub Repository: <a target="_blank" href="https://github.com/Jennykuma/CPSC-583/tree/master/P1">https://github.com/Jennykuma/CPSC-583/tree/master/P1</a>
 
 ##### Working Webpage
-Click: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P1/index.html">https://jennykuma.github.io/CPSC583/P1/index.html</a>
+Visit: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P1/index.html">https://jennykuma.github.io/CPSC583/P1/index.html</a>
 
 ---
 #### Working Prototype
-Youtube: <a target="_blank" href="https://www.youtube.com/watch?v=AdZMxk9ZLD4">https://www.youtube.com/watch?v=AdZMxk9ZLD4</a>
+Skip to 0:10
+
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/AdZMxk9ZLD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

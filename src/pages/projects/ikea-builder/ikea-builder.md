@@ -5,10 +5,27 @@ date: 2017-11-13
 featuredImage: ./ikeaBuilder-featured.png
 ---
 ---
+#### Information
+###### Team Member(s) 
+Jenny Le
+###### Future Audience 
+Young home owners, people who get easily stressed/confused when it comes to building furniture or instructions
+###### Status 
+Functional prototype completed
+###### Language(s) & Software Used 
+C#, Unity, Blender, Audacity
+###### Type 
+Class project
+###### Schedule
+October 19 - November 14, 2017
+
+---
 #### Challenge
 Create an interface that reimagines how people interact with immersive 360-degree video, 
 using a mobile phone and Google Cardboard. Students can create their own 360 video for this project; 
 360 cameras are available for loan, upon request.
+
+---
 #### Problem Statement
 For this project, I wanted to tackle the difficulty of following instructions. The process can evoke stress, anxiety, and confusion. Because of these complicated emotions, I wanted to alleviate them in some way so that the user would be less stressed. 
 I decided to specifically do an IKEA Furniture Simulator because many people can relate to how vague/hard the instructions can be 
@@ -151,6 +168,7 @@ The thing I really enjoyed was recording the sounds and editing them on Audacity
 
 I really wanted the user to enjoy building furniture and head into it thinking that it's not that bad. I included instructions in the beginning to let the user know what to use throughout the simulator to navigate. In addition, I included the confusion scene because I wanted the user to experience confusion at first hand before heading into the building session. It could be more polished, but for the class presentation, I'm content to have something worthwhile to show.
 
+---
 ##### Helpful Links
 These guides and support helped me a lot!
 
@@ -167,10 +185,10 @@ These guides and support helped me a lot!
 ---
 #### Code
 ##### GitHub
-GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/tree/master/P2/IKEA%20Furniture%20Simulator">Click here</a>
+GitHub: <a target="_blank" href="https://github.com/Jennykuma/CPSC-581/tree/master/P2/IKEA%20Furniture%20Simulator">https://github.com/Jennykuma/CPSC-581/tree/master/P2/IKEA%20Furniture%20Simulator</a>
             
 ##### Download the Project
-360 Video: <a target="_blank" href="https://www.dropbox.com/s/srcmzgh4yer6p8n/houseedited.mp4?dl=0">Click here</a>
+360 Video: <a target="_blank" href="https://www.dropbox.com/s/srcmzgh4yer6p8n/houseedited.mp4?dl=0">https://www.dropbox.com/s/srcmzgh4yer6p8n/houseedited.mp4?dl=0</a>
             
 Instructions:
 - Download files off of Github and video off of Dropbox (Above links).
@@ -178,8 +196,8 @@ Instructions:
 - Begin to play!
 - Alternatively: Download the .apk onto your phone and use it on your phone just like that!
 
-apk: <a target="_blank" href="https://www.dropbox.com/s/dtspwxbudrzr0oc/IKEA%20Simulator%20v1.5.apk?dl=0">Click here</a>
+apk: <a target="_blank" href="https://www.dropbox.com/s/dtspwxbudrzr0oc/IKEA%20Simulator%20v1.5.apk?dl=0">https://www.dropbox.com/s/dtspwxbudrzr0oc/IKEA%20Simulator%20v1.5.apk?dl=0</a>
 
 ---
 #### Working Prototype
-youtube: <a href="https://www.youtube.com/watch?v=1dNdJaSQpPQ" target="_blank">https://www.youtube.com/watch?v=1dNdJaSQpPQ</a>
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/1dNdJaSQpPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

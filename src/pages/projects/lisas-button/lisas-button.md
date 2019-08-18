@@ -5,12 +5,31 @@ date: 2017-09-24
 featuredImage: ./lisasButton-featured.png
 ---
 ---
+#### Information
+###### Team Member(s) 
+Jenny Le 
+###### Customer 
+Lisa (classmate) 
+###### Status 
+Functional prototype completed
+###### Language(s) Used 
+C#, XAML
+###### Type 
+Class project
+###### Schedule 
+September 14 - 26, 2017
+
+---
 #### Challenge
 Create a button that represents another student in class (your "client"). The client should recognize themselves in the thing that has been created, and be delighted.
+
+---
 #### Problem Statement
 From interviewing Lisa in class and on Slack, I could tell that she is a kind and timid individual. Also, she is extremely short for her age!
 I wanted to take the challenge of making a statement for her own character. Although she is short and small, I wanted to show that 
 she can be overwhelming for such a little individual. I wanted to create something small, but big, which incorporated music and things that she likes.
+
+---
 #### Interview
 ##### First Interview
 I was completely in shock about doing an interview. I didn't know what to ask her! First we took things slow, and I got her birthday. 
@@ -73,23 +92,23 @@ Below are the storyboards I drew up for the animated story.
 ---
 #### Code
 ##### Github
-Github repository: <a href="https://github.com/Jennykuma/CPSC-581/tree/master/P0" target="_blank">Click here</a>
+Github repository: <a href="https://github.com/Jennykuma/CPSC-581/tree/master/P0" target="_blank">https://github.com/Jennykuma/CPSC-581/tree/master/P0</a>
 
-Github main source code: <a href="https://github.com/Jennykuma/CPSC-581/blob/P0/P0/ButtonP0_JennyLe/ButtonP0_JennyLe/MainWindow.xaml.cs" target="_blank">Click here</a>
+Github main source code: <a href="https://github.com/Jennykuma/CPSC-581/blob/P0/P0/ButtonP0_JennyLe/ButtonP0_JennyLe/MainWindow.xaml.cs" target="_blank">https://github.com/Jennykuma/CPSC-581/blob/P0/P0/ButtonP0_JennyLe/ButtonP0_JennyLe/MainWindow.xaml.cs</a>
 
-Github repository (download as ZIP):  <a href="https://github.com/Jennykuma/CPSC-581/archive/P0.zip" target="_blank">Click here</a>
+Github repository (download as ZIP):  <a href="https://github.com/Jennykuma/CPSC-581/archive/P0.zip" target="_blank">https://github.com/Jennykuma/CPSC-581/archive/P0.zip</a>
 
 ##### Download the Project
-.exe download: <a href="https://www.dropbox.com/s/d6g6kw4m1035163/CPSC581-P0-JennyLe.zip?dl=0" target="_blank">Click here</a>
+.exe download: <a href="https://www.dropbox.com/s/d6g6kw4m1035163/CPSC581-P0-JennyLe.zip?dl=0" target="_blank">https://www.dropbox.com/s/d6g6kw4m1035163/CPSC581-P0-JennyLe.zip?dl=0</a>
 
 .exe Instructions:
-- Download the following .zip file
+- Download the following .zip file above
 - Unzip it to your desired location
 - Open up the folder and run the .exe file
 - The corgi is your button for the entire program. Enjoy! <br />
 
-Credits: <a href="https://www.dropbox.com/s/7d5d3cmmg1s4ql2/P0%20Bibliography.txt?dl=0" target="_blank">Click here</a>
+Credits: <a href="https://www.dropbox.com/s/7d5d3cmmg1s4ql2/P0%20Bibliography.txt?dl=0" target="_blank">https://www.dropbox.com/s/7d5d3cmmg1s4ql2/P0%20Bibliography.txt?dl=0</a>
 
 ---
 #### Working Prototype
-youtube: <a href="https://www.youtube.com/watch?v=fq5kMB8Lftc" target="_blank">https://www.youtube.com/watch?v=fq5kMB8Lftc</a>
+<iframe width="1035" height="582" src="https://www.youtube.com/embed/fq5kMB8Lftc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
