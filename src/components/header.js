@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from 'styled-components'
 import Headroom from "react-headroom"
-import DynamicImage from "../components/image"
 
 import "../styles/header.css"
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';

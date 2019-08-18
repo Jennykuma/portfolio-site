@@ -23,13 +23,6 @@ const DynamicImage = (props) => {
           }
         }
       }
-      jennykumaIconImage: file(relativePath: { eq: "jennykuma-icon.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 5) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
       lisasButtonImage: file(relativePath: { eq: "lisasButton.png" }) {
         childImageSharp {
           fluid(maxWidth: 400) {
@@ -85,8 +78,6 @@ const DynamicImage = (props) => {
   let imageName = props.imageName;
   if (imageName == "jennykumaImage") {
     return <Img fluid={data.jennykumaImage.childImageSharp.fluid} />
-  } if (imageName == "jennykumaIconImage") {
-    return <Img fluid={data.jennykumaIconImage.childImageSharp.fluid} />
   } else if (imageName == "lisasButtonImage") {
     return <Img fluid={data.lisasButtonImage.childImageSharp.fluid} />
   } else if (imageName == "quickCommsImage") {

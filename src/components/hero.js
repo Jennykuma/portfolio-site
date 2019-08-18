@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { Container, Row, Col } from 'reactstrap'
-import { FaRegEnvelope, FaLinkedin } from 'react-icons/fa'
+import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
@@ -46,6 +46,7 @@ const StyledExtLink = styled(props => <a {...props} />)`
 
 const IconLink = styled.a`
     color: #e87461;
+    margin-right: 10px;
 
     &:hover {
         color: #f2afa4;
@@ -76,7 +77,11 @@ const Hero = () => (
                         & enjoy capturing special <StyledExtLink target="_blank" href="https://www.instagram.com/jiku.ma/">moments</StyledExtLink> with my Sony a6000.
                     </Text>
                     <IconLink href={"mailto:" + "jenny.le@ucalgary.ca"}>
-                        <FaRegEnvelope style={{marginRight: `10px`}}/>
+                        <FaRegEnvelope />
+                    </IconLink>
+
+                    <IconLink target="_blank" href="https://github.com/Jennykuma">
+                        <FaGithub />
                     </IconLink>
 
                     <IconLink target="_blank" href="https://www.linkedin.com/in/jennyle05/">
