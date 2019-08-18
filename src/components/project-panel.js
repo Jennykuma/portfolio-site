@@ -23,7 +23,7 @@ const DescText = styled.text`
 const Polaroid = styled.button`
   position: relative;
   background: #fff;
-  width: 21em;
+  width: 31%;
   padding: 0px 0px 0px 0px;
   margin: 10px;
   text-align: left;

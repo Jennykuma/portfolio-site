@@ -15,16 +15,15 @@ const Title = styled.h1`
   color: #333333;
 `;
 
-const Date = styled.h5`
+const Date = styled.h6`
   text-align: left;
   font-family: varela round;
   font-weight: 500;
   color: #333333;
 `;
 
-
 const Text = styled.text`
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.5em;
     font-family: nunito sans;
 `;
@@ -41,10 +40,10 @@ export default function Template({
         <Title>{frontmatter.title}</Title>
         <Date>{frontmatter.date}</Date>
         <Img fluid={frontmatter.featuredImage.childImageSharp.fluid} />
-        <div
+        <Text
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
-        />
+        ></Text>
       </div>
     </div>
     </Layout>

@@ -9,7 +9,7 @@ featuredImage: ./ikeaBuilder-featured.png
 ###### Team Member(s) 
 Jenny Le
 ###### Future Audience 
-Young home owners, people who get easily stressed/confused when it comes to building furniture or instructions
+Young home owners, people who get easily stressed/confused when it comes to building furniture or instructions.W
 ###### Status 
 Functional prototype completed
 ###### Language(s) & Software Used 
