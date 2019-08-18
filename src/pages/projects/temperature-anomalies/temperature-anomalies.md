@@ -30,8 +30,6 @@ The scatterplot would first start out plotting the North American anomalies. But
 
 ---
 #### Representation
-![Presentation Image 1](./presentation-1.png "A snapshot of the North America data points being plotted onto the graph")
-
 I decided to do a bubble scatterplot which then could be connected to create a connected scatterplot. The reason why I started out with a scatterplot is because I wanted to map each anomaly to the year. This would then let the user see which anomaly belongs to which year in an aesthetic style. Then from there, I decided to add the option to create a connected scatterplot because it would then allow the user to see further deviation of the anomalies from the predicted temperatures. It would allow the user to compare more and see the effects of global environment challenges that are slowly creeping on us. 
 
 ---
@@ -39,6 +37,8 @@ I decided to do a bubble scatterplot which then could be connected to create a c
 I wanted the whole site and visualization to be relative to each other. I chose a pastel blue background to go with white because I think of the colour blue when I think of the weather (blue sky, etc). I then also chose a round white font to go with the cloud symbols in the title and subtitles. 
 
 For the data points, I chose white circles to go along with the theme. It adds a certain bounciness and closeness to the clouds on the visualization as well. The user can also see that the circles get bigger as the anomalies deviate more from the standard temperature. I chose to do a scatterplot as I wanted it to look aesthetically pleasing and it differs from a standard bland bar graph or line graph. 
+
+![Presentation Image 1](./presentation-1.png "A snapshot of the North America data points being plotted onto the graph")
 
 Additionally, I added a negative y-axis to the visualization to also display the negative anomalies in some regions. I wanted to also make sure that the positive y-axis is symmetric to the negative y-axis for aesthetic reasons. As the user views this visualization, they should be able to conclude that the circles are getting higher later in the years as a whole. 
 
