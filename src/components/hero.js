@@ -56,7 +56,7 @@ const IconLink = styled.a`
 const Hero = () => (
     <Container fluid>
         <SEO title="Jenny's Portfolio"/>
-        <Row style={{ marginTop: `8vh` }}>
+        <Row style={{ marginTop: `7vh` }}>
             <Col xs="0" s="0" md="4" lg="4">
                 <DynamicImage imageName={"jennykumaImage"}></DynamicImage>
             </Col>

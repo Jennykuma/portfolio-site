@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
           style={{
             margin: `0 auto`,
             maxWidth: 1280,
-            padding: `0`,
+            padding: `1em`,
             paddingTop: 0,
             color: `#515151`,
           }}
