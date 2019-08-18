@@ -21,21 +21,19 @@ September 14 - 26, 2017
 
 ---
 #### Challenge
-Create a button that represents another student in class (your "client"). The client should recognize themselves in the thing that has been created, and be delighted.
+Create a button that represents another student in the class (your "client"). The client should recognize themselves in the thing that has been created, and be delighted.
 
 ---
 #### Problem Statement
 From interviewing Lisa in class and on Slack, I could tell that she is a kind and timid individual. Also, she is extremely short for her age!
-I wanted to take the challenge of making a statement for her own character. Although she is short and small, I wanted to show that 
-she can be overwhelming for such a little individual. I wanted to create something small, but big, which incorporated music and things that she likes.
+I wanted to take the challenge of making a statement for her character. Although she is short and small, I wanted to show that she can be overwhelming for such a little individual. I wanted to create something small, but big, which incorporated music and things that she likes.
 
 ---
 #### Interview
 ##### First Interview
-I was completely in shock about doing an interview. I didn't know what to ask her! First we took things slow, and I got her birthday. 
+I was completely in shock about doing an interview. I didn't know what to ask her! First, we took things slow, and I got her birthday. 
 From there, we went on a journey that was completely about Lisa. I learned about all of the things that she likes and why she likes them. I also learned about what music she listens too. Her favourite flower. Her favourite colour. Her love for corgis. 
-We kept discussing herself until time was up.
-
+We kept discussing herself until the time was up.
 
 By the end of the interview, I thought I would have gotten it all down, but I still didn't know what to make for her. 
 One thing I knew for sure was that she is a quirky individual with a love for classical music and many interesting things.
@@ -43,9 +41,9 @@ One thing I knew for sure was that she is a quirky individual with a love for cl
 ![Interview Notes 1](./interview-notes-1.jpg "Interview Notes")
 
 ##### Second Interview
-As I was working on the project, I wanted to get more information on what Lisa likes. I did a mini interview through Slack. This interview was really helpful because I found out that she likes camping, spaceships, and many more things. This gave me enough foundation to make my project head in a certain direction. 
+As I was working on the project, I wanted to get more information on what Lisa likes. I did a mini-interview through Slack. This interview was really helpful because I found out that she likes camping, spaceships, and many more things. This gave me enough foundation to make my project head in a certain direction. 
 
-This interview gave me different ideas for backgrounds, situations and music which would then be incorporated in my project. I learned that I should not rely on a single interview, and never be afraid to ask your client for more clarification. 
+This interview gave me different ideas for backgrounds, situations, and music which would then be incorporated in my project. I learned that I should not rely on a single interview, and never be afraid to ask your client for more clarification. 
 
 ![Interview Notes 2](./interview-notes-2.jpg "Slack Conversation")
 
@@ -55,13 +53,13 @@ This interview gave me different ideas for backgrounds, situations and music whi
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|:-:|:-:|
 | ![Initial Sketches](./initial-1.jpg) | ![Lego Corgi](./initiall-2.png) | ![WPF Button](./initial-3.png) | ![In-Depth Sketches](./initial-4.jpg) | ![:ego Corgi Cont](./initial-5.png)
-The first couple images are what I had envisioned what Lisa's button would look like: 
-1. **A Pin** - I was thinking about the aestetics and how she could wear it. It could even look kind of flashy on her! 
+The first couple of images are what I had envisioned what Lisa's button would look like: 
+1. **A Pin** - I was thinking about the aesthetics and how she could wear it. It could even look kind of flashy on her! 
 2. **Lisa Button** - This was inspired by the Staples 'That was easy' button. I wanted it to play music or something like that. 
 3. **WPF Lisa Button** - I wanted to make this a program which did something after pressing the button. This idea was later evolved into my final product. 
 4. **Lego Warrior Lisa** - I added a dinky button onto this lego warrior which would then do something when it is pressed. 
 5. **Lego Corgi** - I just wanted to build a lego corgi that played classical music when the button was pressed. 
-6. **Mobile App Button** - A mobile app that would do something whenever she would press a button. I had a sound board in mind. 
+6. **Mobile App Button** - A mobile app that would do something whenever she would press a button. I had a soundboard in mind. 
 7. **Lego Music Player** - I wanted a boombox that looked so thug, but when the button is pressed, it would spit out classical music. 
 8. **Lego Box** - Lisa loves her EOS lip balm. I wanted to create a lip balm holder out of lego since she loves lego too. 
 
@@ -74,9 +72,9 @@ The first couple images are what I had envisioned what Lisa's button would look 
 
 The above images display ideas about Lisa's button and a list of what could be turned into stickers. 
 
-I later went onto refining the Lego Corgi. I literally thought it was going to be the best thing ever, but then I realized that our projects had to be implemented. So I jumped ship from the Lego Corgi onto a more viable option --> WPF. 
+I later went onto refining the Lego Corgi. I thought it was going to be the best thing ever, but then I realized that our projects had to be implemented. So I jumped ship from the Lego Corgi onto a more viable option --> WPF. 
 
-At first, I wanted a button that had her name on it and then she could press it and it would do something. But I then thought that this wouldn't be enough for a 500 level course project. So then I evolved the button into a corgi, because Lisa loves corgis. I wanted to create something animated, which then elevated to the adventure of a corgi. From there, I had the idea of adding stickers, which follows the 'Sticker Bomb' concept. Each sticker would be added into the animation and it would sort of tell a story with the song being played. 
+At first, I wanted a button that had her name on it and then she could press it and it would do something. But I then thought that this wouldn't be enough for a 500 level course project. So then I evolved the button into a corgi because Lisa loves corgis. I wanted to create something animated, which then elevated to the adventure of a corgi. From there, I had the idea of adding stickers, which follows the 'Sticker Bomb' concept. Each sticker would be added into the animation and it would sort of tell a story with the song being played. 
 
 Bam! I hit the jackpot. 
 I came to realize that an animated story with the corgi as the button would best represent Lisa. It was almost as if she were in the story.

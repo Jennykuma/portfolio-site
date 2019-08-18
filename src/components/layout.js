@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
           }}
         >
             <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
-          <Fade bottom distance={`50px`}>
+          <Fade bottom distance={`25px`}>
             <main>{children}</main>
           </Fade>
         </div>

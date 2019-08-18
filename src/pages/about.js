@@ -51,19 +51,19 @@ const AboutPage = () => (
             <Row>
                 <Col md="7" style={{ paddingLeft: 0, paddingRight: 0 }}>
                     <Text>
-                        My passion for creating websites started back in 2008, when I was 12 years old. 
-                        I built my first ever website using <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Webs_(web_hosting)">freewebs</StyledLink>. It 
+                        My passion for creating websites started back in 2008 when I was 12 years old. 
+                        I built my first ever website using <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Webs_(web_hosting)">Freewebs</StyledLink>. It 
                         had butterflies, music and a ton of links! It was awesome.
                         <br />
-                        Later on from that experience, I got into <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Tumblr">tumblr</StyledLink> and started making themes.
+                        Later on from that experience, I got into <StyledLink target="_blank" href="https://en.wikipedia.org/wiki/Tumblr">Tumblr</StyledLink> and started making themes.
                         <br />
                         Since then, I've been (and still am) improving the way that I build websites and software.
                         <br />
                         I've been open to looking at things in everyday life with different perspectives and it has helped me grow as a developer and person.
                         <p></p>
                         When I am not building web applications, I am probably using my Sony a6000 to capture moments and putting them 
-                        up on <StyledLink target="_blank" href="https://www.instagram.com/jiku.ma/">instagram</StyledLink>. I also use some of my spare time to do coding 
-                        problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">codewars</StyledLink>, read news articles, or game. 
+                        up on <StyledLink target="_blank" href="https://www.instagram.com/jiku.ma/">Instagram</StyledLink>. I also use some of my spare time to do coding 
+                        problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">Codewars</StyledLink>, read news articles, or game. 
                         <p></p>
                         I love to take photos, travel, try new foods, and play sports (team sports & Minesweeper)!
                         <p></p>

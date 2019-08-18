@@ -11,26 +11,26 @@ The main focus of this project is on the representation of the data.
 
 ---
 #### The Data
-The data chosen for this assignment is about how the climate for different regions of Earth have gotten
+The data chosen for this assignment is about how the climate for different regions of Earth has gotten
 better/worse in terms of temperature anomalies which have deviated from the standard temperature
-predicted for that time. I find it useful to visualize data based on the environment and its temperatures because it is a dramatic way to show how big global warming and environmental challenges are becoming in this day and age. If written information were to be compared with a visualization, a visualization would get to the point more drastically and accurately by a single glance. 
+predicted for that time. I find it useful to visualize data based on the environment and its temperatures because it is a dramatic way to show how big global warming and environmental challenges are becoming in this day and age. If written information were to be compared with visualization, a visualization would get to the point more drastically and accurately by a single glance. 
 
 #### Data Summary Sheet
-I took each csv file provided for each region and got their average as well and then summarized it into one csv file to use for the visualization. Originally I chose 2007-2016, but I felt that the range wouldn’t be big enough, so I stretched it to 1987-2016. 
+I took each CSV file provided for each region and got the average and then summarized it into one CSV file to use for the visualization. Originally I chose 2007-2016, but I felt that the range wouldn’t be big enough, so I stretched it to 1987-2016. 
 
-![Data Summary 1](./data-1.png "All regions have their anomalies and averages summarized into one csv file")
+![Data Summary 1](./data-1.png "All regions have their anomalies and averages summarized into one CSV file")
 
 ##### Directions and Change
 | &nbsp; | &nbsp; | &nbsp; |
 |:-:|:-:|:-:|
 | ![Brainstorming Sketches 1](./sketch-1.jpg) | ![Brainstorming Sketches 2](./sketch-2.jpg) | ![Brainstorming Sketches 3](./sketch-3.jpg ) | 
-By thinking about my data, I wanted to do a bar graph or pie chart – something simple because I wasn’t quite educated on different graphs. As time in class progressed and I learned more about the aesthetic of graphs, my idea of my visualization changed. I also intended to use not as many colours because I want it modern, simple and appealing. By doing different types of sketches for a variety of graphs, I chose to do a bubble scatterplot which could also be turned into a connected scatterplot. The reason why I singled out the other graphs is because some would be too complex to do in d3, or it just did not appeal to me. I wanted something simple and pleasant so that the user would not feel overwhelmed when viewing my visualization. I fused sketches #1 & #8 since I thought they would work well together.
+By thinking about my data, I wanted to do a bar graph or pie chart – something simple because I wasn’t quite educated on different graphs. As time in class progressed and I learned more about the aesthetic of graphs, my idea of my visualization changed. I also intended to use not as many colours because I want it modern, simple and appealing. By doing different types of sketches for a variety of graphs, I chose to do a bubble scatterplot which could also be turned into a connected scatterplot. The reason why I singled out the other graphs is that some would be too complex to do in D3, or it just did not appeal to me. I wanted something simple and pleasant so that the user would not feel overwhelmed when viewing my visualization. I fused sketches #1 & #8 since I thought they would work well together.
 
-The scatterplot would first start out plotting the North American anomalies. But after viewing it in my browser, I thought that this would not be enough to hand in for marks. I started to branch out into viewing anomalies from other regions of the world. And then I thought to myself that it would be an awesome idea to incorporate their anomalies into the visualization because it would become interactive and it would be a gateway into opening up the idea of global environmental challenges for the user to see. I also decided to change the radius of the data points as the anomalies became greater to emphasize how much bigger the deviation is from the standard predicted temperatures. And to add more accuracy, I added the feature of hovering over each data point, which would let the user see each year and anomaly much easier.  From there, I accidentally ran into the feature of connecting the data points. I then dove further into this idea because it would benefit the user and the visualization as well, since it would let them see the differences between each anomaly. Additionally, it would add another interactive feature to the visualization. At this point, everything came together to become what the final product is right now.
+The scatterplot would first start out plotting the North American anomalies. But after viewing it in my browser, I thought that this would not be enough to hand in for marks. I started to branch out into viewing anomalies from other regions of the world. And then I thought to myself that it would be an awesome idea to incorporate their anomalies into the visualization because it would become interactive and it would be a gateway into opening up the idea of global environmental challenges for the user to see. I also decided to change the radius of the data points as the anomalies became greater to emphasize how much bigger the deviation is from the standard predicted temperatures. And to add more accuracy, I added the feature of hovering over each data point, which would let the user see each year and anomaly much easier.  From there, I accidentally ran into the feature of connecting the data points. I then dove further into this idea because it would benefit the user and the visualization as well since it would let them see the differences between each anomaly. Additionally, it would add another interactive feature to the visualization. At this point, everything came together to become what the final product is right now.
 
 ---
 #### Representation
-I decided to do a bubble scatterplot which then could be connected to create a connected scatterplot. The reason why I started out with a scatterplot is because I wanted to map each anomaly to the year. This would then let the user see which anomaly belongs to which year in an aesthetic style. Then from there, I decided to add the option to create a connected scatterplot because it would then allow the user to see further deviation of the anomalies from the predicted temperatures. It would allow the user to compare more and see the effects of global environment challenges that are slowly creeping on us. 
+I decided to do a bubble scatterplot which then could be connected to create a connected scatterplot. The reason why I started with a scatterplot is that I wanted to map each anomaly to the year. This would then let the user see which anomaly belongs to which year in an aesthetic style. Then from there, I decided to add the option to create a connected scatterplot because it would then allow the user to see the further deviation of the anomalies from the predicted temperatures. It would allow the user to compare more and see the effects of global environmental challenges that are slowly creeping on us. 
 
 ---
 #### Presentation
@@ -66,9 +66,9 @@ I stumbled upon this feature while I was trying to make a line of best fit for t
 ![Final Image 1](./final-1.png "A complete view of the visualization")
 One positive feature that I like about this visualization is that the whole appearance is not too overwhelming and comes off as pleasant. I chose to use very little variety of colours to keep it calming and simple. 
 
-There aren’t too many options to choose from, which lets the user become more comfortable with playing around with the visualization. Also, there is a description on how to use the visualization on the left in the ‘About’ section in case they don’t know what an anomaly is or where to start.
+There aren’t too many options to choose from, which lets the user become more comfortable with playing around with the visualization. Also, there is a description of how to use the visualization on the left in the ‘About’ section in case they don’t know what an anomaly is or where to start.
 
-I also really like the option to create a connected scatterplot with the data points plotted on the graph. This aides the user in seeing which point comes after another in terms of anomalies and years. Everything blends together smoothly!
+I also really like the option to create a connected scatterplot with the data points plotted on the graph. This helps the user in seeing which point comes after another in terms of anomalies and years. Everything blends smoothly!
 
 ---
 #### Code

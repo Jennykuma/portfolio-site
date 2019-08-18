@@ -18,7 +18,7 @@ module.exports = {
       },
       {
         name:'resume',
-        link:'/'
+        link:'/resume/'
       }
     ]
   },

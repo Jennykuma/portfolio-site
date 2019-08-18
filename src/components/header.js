@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import Headroom from "react-headroom"
 
 import "../styles/header.css"
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
 const StyledLink = styled(props => <Link {...props} />)`
 	font-family: nunito sans;
@@ -19,11 +18,16 @@ const StyledLink = styled(props => <Link {...props} />)`
 	}
 `;
 
-const Text = styled.text`
-  font-family: nunito sans;
+const StyledIconLink = styled(props => <Link {...props} />)`
+	font-family: nunito sans;
   font-size: 0.9em;
   font-weight: 500;
-  color: #333333;
+	color: #e87461;
+
+	&:hover {
+		color: #333333;
+		text-decoration: none;
+	}
 `;
 
 const Header = ({ siteTitle, menuLinks }) => (
@@ -44,7 +48,7 @@ const Header = ({ siteTitle, menuLinks }) => (
               justifyContent: `flex-end`,
             }}
           >
-            <StyledLink style={{ padding: `1.1rem 0 1rem 0`, marginRight: `auto`, fontSize: `1em` }} to={"/"}>jle.</StyledLink>
+            <StyledIconLink style={{ padding: `1.1rem 0 1rem 0`, marginRight: `auto`, fontSize: `1em` }} to={"/"}>jle.</StyledIconLink>
             {menuLinks.map(link => (
               <li
                 key={link.name}
