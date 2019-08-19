@@ -43,13 +43,11 @@ const Layout = ({ children }) => (
             color: `#515151`,
           }}
         >
-          <div>
-            <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
-            <Fade bottom distance={`25px`}>
-              <main style={{ minHeight: `75vh` }}>{children}</main>
-              <Footer />
-            </Fade>
-          </div>
+          <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
+          <Fade bottom distance={`25px`}>
+            <main style={{ minHeight: `75vh` }}>{children}</main>
+            <Footer />
+          </Fade>
         </div>
       </>
     )}

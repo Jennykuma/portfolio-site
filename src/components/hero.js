@@ -7,7 +7,6 @@ import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
 
-// Create a Title component that'll render an <h1> tag with some styles
 const Name = styled.h1`
   font-size: 3.5em;
   text-align: left;
