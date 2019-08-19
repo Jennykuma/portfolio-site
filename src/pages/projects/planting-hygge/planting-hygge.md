@@ -57,9 +57,11 @@ This is what I wanted my Hygge aesthetic to be relevant to.
 ---
 #### Low-Fi Prototyping - Sketches
 ##### Initial
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ![Initial Sketch 1](./initial-1.jpg " ") | ![Initial Sketch 2](./initial-2.jpg " ") | ![Initial Sketch 3](./initial-3.jpg " ") | ![Initial Sketch 4](./initial-4.jpg " ") | ![Initial Sketch 5](./initial-5.jpg " ") | ![Initial Sketch 6](./initial-6.jpg " ") | ![Initial Sketch 7](./initial-7.jpg " ") | ![Initial Sketch 8](./initial-8.jpg " ") | ![Initial Sketch 9](./initial-9.jpg " ") | ![Initial Sketch 10](./initial-10.jpg " ") | ![Initial Sketch 11](./initial-11.jpg " ") | ![Initial Sketch 12](./initial-12.jpg " ") |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|:-:|:-:|:-:|:-:|
+| ![Initial Sketch 1](./initial-1.jpg " ") | ![Initial Sketch 2](./initial-2.jpg " ") | ![Initial Sketch 3](./initial-3.jpg " ") | ![Initial Sketch 4](./initial-4.jpg " ") |
+| ![Initial Sketch 5](./initial-5.jpg " ") | ![Initial Sketch 6](./initial-6.jpg " ") | ![Initial Sketch 7](./initial-7.jpg " ") | ![Initial Sketch 8](./initial-8.jpg " ") |
+| ![Initial Sketch 9](./initial-9.jpg " ") | ![Initial Sketch 10](./initial-10.jpg " ") | ![Initial Sketch 11](./initial-11.jpg " ") | ![Initial Sketch 12](./initial-12.jpg " ") |
 These are some sketches that I did for brainstorming what I could do for this assignment:
 
 1. **The Gift Box** - This concept consists of an individual receiving something in the mail. From there, they will be able to interact with items within the gift box to bring up certain memories and reflect on times shared with friends and family. 
@@ -178,4 +180,4 @@ Instructions:
 
 ---
 #### Working Prototype
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/5kR6Y4IyoAI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a target="_blank" href="https://www.youtube.com/watch?v=5kR6Y4IyoAI">https://www.youtube.com/watch?v=5kR6Y4IyoAI</a>

@@ -122,9 +122,9 @@ It took a lot of struggling and stress, but it paid off! I started out learning 
 Then I did the buttons and the camera. I think it's best to show images of my project and it's progress! 
 I had a lot of fun with this project even though I was in a huge time crunch. It brushed up my time management skills and was a huge challenge against stress. 
 
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:-:|:-:|:-:|:-:|:-:|
-| ![Progress 1](./progress-1.jpg "LEDs are in!") | ![Progress 2](./progress-2.jpg "Fancy light show") | ![Progress 3](./progress-3.jpg "Yay wires!") | ![Progress 4](./progress-4.jpg "GPIO Nightmare") | ![Progress 5](./progress-5.jpg "Tidying Up") |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|:-:|:-:|:-:|:-:|
+| ![Progress 1](./progress-1.jpg "LEDs are in!") | ![Progress 3](./progress-3.jpg "Yay wires!") | ![Progress 4](./progress-4.jpg "GPIO Nightmare") | ![Progress 5](./progress-5.jpg "Tidying Up") |
 ##### Screenshot
 Example of an email a recipient would receive:
 ![Email 1](./email-1.png "Sample email")
@@ -151,4 +151,4 @@ Instructions: <a target="_blank" href="https://www.dropbox.com/s/wshx9selw71ycee
         
 ---
 #### Working Prototype
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/wiZTTenyB3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a target="_blank" href="https://www.youtube.com/watch?v=wiZTTenyB3c">https://www.youtube.com/watch?v=wiZTTenyB3c</a>

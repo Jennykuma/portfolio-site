@@ -76,6 +76,4 @@ Visit: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P2/index.htm
 
 ---
 #### Working Prototype
-Skip to 1:30
-
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/AdZMxk9ZLD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a target="_blank" href="https://youtu.be/AdZMxk9ZLD4?t=92">https://youtu.be/AdZMxk9ZLD4?t=92</a>

@@ -50,9 +50,9 @@ This interview gave me different ideas for backgrounds, situations, and music wh
 ---
 #### Low-Fi Prototyping - Sketches
 ##### Initial
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:-:|:-:|:-:|:-:|:-:|
-| ![Initial Sketches](./initial-1.jpg) | ![Lego Corgi](./initiall-2.png) | ![WPF Button](./initial-3.png) | ![In-Depth Sketches](./initial-4.jpg) | ![:ego Corgi Cont](./initial-5.png)
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|:-:|:-:|:-:|:-:|
+| ![Initial Sketches](./initial-1.jpg) | ![Lego Corgi](./initiall-2.png) | ![WPF Button](./initial-3.png) | ![In-Depth Sketches](./initial-4.jpg) |
 The first couple of images are what I had envisioned what Lisa's button would look like: 
 1. **A Pin** - I was thinking about the aesthetics and how she could wear it. It could even look kind of flashy on her! 
 2. **Lisa Button** - This was inspired by the Staples 'That was easy' button. I wanted it to play music or something like that. 
@@ -109,4 +109,4 @@ Credits: <a href="https://www.dropbox.com/s/7d5d3cmmg1s4ql2/P0%20Bibliography.tx
 
 ---
 #### Working Prototype
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/fq5kMB8Lftc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a href="https://www.youtube.com/watch?v=fq5kMB8Lftc" target="_blank">https://www.youtube.com/watch?v=fq5kMB8Lftc</a>

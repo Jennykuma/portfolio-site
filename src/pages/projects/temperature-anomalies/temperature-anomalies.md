@@ -21,9 +21,9 @@ I took each CSV file provided for each region and got the average and then summa
 ![Data Summary 1](./data-1.png "All regions have their anomalies and averages summarized into one CSV file")
 
 ##### Directions and Change
-| &nbsp; | &nbsp; | &nbsp; |
-|:-:|:-:|:-:|
-| ![Brainstorming Sketches 1](./sketch-1.jpg) | ![Brainstorming Sketches 2](./sketch-2.jpg) | ![Brainstorming Sketches 3](./sketch-3.jpg ) | 
+![](./sketch-1.jpg)
+![](./sketch-2.jpg)
+![](./sketch-3.jpg "Brainstorming sketches")
 By thinking about my data, I wanted to do a bar graph or pie chart – something simple because I wasn’t quite educated on different graphs. As time in class progressed and I learned more about the aesthetic of graphs, my idea of my visualization changed. I also intended to use not as many colours because I want it modern, simple and appealing. By doing different types of sketches for a variety of graphs, I chose to do a bubble scatterplot which could also be turned into a connected scatterplot. The reason why I singled out the other graphs is that some would be too complex to do in D3, or it just did not appeal to me. I wanted something simple and pleasant so that the user would not feel overwhelmed when viewing my visualization. I fused sketches #1 & #8 since I thought they would work well together.
 
 The scatterplot would first start out plotting the North American anomalies. But after viewing it in my browser, I thought that this would not be enough to hand in for marks. I started to branch out into viewing anomalies from other regions of the world. And then I thought to myself that it would be an awesome idea to incorporate their anomalies into the visualization because it would become interactive and it would be a gateway into opening up the idea of global environmental challenges for the user to see. I also decided to change the radius of the data points as the anomalies became greater to emphasize how much bigger the deviation is from the standard predicted temperatures. And to add more accuracy, I added the feature of hovering over each data point, which would let the user see each year and anomaly much easier.  From there, I accidentally ran into the feature of connecting the data points. I then dove further into this idea because it would benefit the user and the visualization as well since it would let them see the differences between each anomaly. Additionally, it would add another interactive feature to the visualization. At this point, everything came together to become what the final product is right now.
@@ -80,6 +80,4 @@ Visit: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P1/index.htm
 
 ---
 #### Working Prototype
-Skip to 0:10
-
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/AdZMxk9ZLD4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a target="_blank" href="https://youtu.be/AdZMxk9ZLD4?t=10">https://youtu.be/AdZMxk9ZLD4?t=10</a>

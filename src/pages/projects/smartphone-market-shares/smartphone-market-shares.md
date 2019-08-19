@@ -18,11 +18,16 @@ The data chosen for this assignment is data about the global share held by leadi
 The market share data is given in %, where each quarter adds up to 100%. The data given could be easily manipulated to suit what type of visualization is desired. I decided to go with a pie chart to display these data points.
 
 #### Directions and Change
-Before starting, I decided to change up the data so that it would not be in quarters, but instead, per year. The reason why I decided to do this is that it would be easier for the average person to understand the market share data rather than figuring out each quarter and adding it up. So then I decided to create a summarized .tsv file of the data to use for the visualization. I did this by adding up the values and then dividing it by 400 then multiplying it by 100 to get each data point out of 100%!
-
 ![Data Summary 2](./data-2.png "A summarized version of the data into years")
+Before starting, I decided to change up the data so that it would not be in quarters, but instead, per year. The reason why I decided to do this is that it would be easier for the average person to understand the market share data rather than figuring out each quarter and adding it up. So then I decided to create a summarized .tsv file of the data to use for the visualization. I did this by adding up the values and then dividing it by 400 then multiplying it by 100 to get each data point out of 100%! 
 
-From there, I decided to do a pie chart to divide it into vendors on a chart since the values all added up to 100%. After talking to Dr. Carpendale, I decided to take another approach towards this assignment and pursue a spider graph. I believe that this was better than the pie chart because it would allow different trends to be seen and the user would be able to visualize all of the data instead of viewing it one by one through pie charts.
+You can find some images of my sketches below:
+
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+|:-:|:-:|:-:|:-:|
+| ![Sketch 1](./sketch-1.jpg " ") | ![Sketch 2](./sketch-2.jpg " ") | ![Sketch 3](./sketch-3.jpg " ") | ![Sketch 4](./sketch-4.jpg " ") |
+
+I decided to do a pie chart to divide it into vendors on a chart since the values all added up to 100%. After talking to Dr. Carpendale, I decided to take another approach towards this assignment and pursue a spider graph. I believe that this was better than the pie chart because it would allow different trends to be seen and the user would be able to visualize all of the data instead of viewing it one by one through pie charts.
 
 ---
 #### Representation
@@ -74,6 +79,4 @@ Visit: <a target="_blank" href="https://jennykuma.github.io/CPSC583/P3v2/index.h
 
 ---
 #### Working Prototype
-Skip to 2:55
-
-<iframe width="1035" height="582" src="https://www.youtube.com/embed/AdZMxk9ZLD4?t=175" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Youtube: <a target="_blank" href="https://youtu.be/AdZMxk9ZLD4?t=175">https://youtu.be/AdZMxk9ZLD4?t=175</a>
