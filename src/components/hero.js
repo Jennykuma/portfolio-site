@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { Container, Row, Col } from 'reactstrap'
-import { MediaQuery } from 'react-responsive'
 import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { device } from "../components/device"
 
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
@@ -53,15 +53,26 @@ const IconLink = styled.a`
     }
 `;
 
+const StyledDiv = styled.div`
+    @media screen and (max-width: 767px) {
+        display: none !important;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: block !important;
+    }
+`;
+
 const Hero = () => (
     <Container fluid>
         <SEO title="Home"/>
         <Row style={{ marginTop: `3vw` }}>
-            <MediaQuery minWidth={1224}>
-                <Col xs="0" s="0" md="4" lg="4">
+            
+            <Col xs="0" s="1" md="4" lg="4">
+                <StyledDiv>
                     <DynamicImage imageName={"jennykumaImage"}></DynamicImage>
-                </Col>
-            </MediaQuery>
+                </StyledDiv>
+            </Col>
         
             <Col xs="12" s="12" md="8" lg="8" style={{ marginTop: `1%`, padding: `3%` }}>
                 <Row>

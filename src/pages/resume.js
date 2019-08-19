@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { device } from "../components/device"
 
 import { Container, Row, Col } from "reactstrap"
 import { Document, Page } from "react-pdf"
@@ -10,8 +11,15 @@ import SEO from "../components/seo"
 
 const PDFDocumentWrapper = styled.div`
     canvas {
-        width: 100% !important;
-        height: auto !important;
+        @media ${device.mobileS} {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        @media ${device.laptop} {
+            width: 45% !important;
+            height: auto !important;
+        }
     }
 `;
 
@@ -20,10 +28,10 @@ const ResumePage = () => (
         <Container>
             <SEO title="Resume"/>
             <Row>
-                <Col xs="12">
+                <Col xs="12" md={{ size: 12, offset: 3}}>
                     <PDFDocumentWrapper>
                         <Document file={resume}> 
-                            <Page pageNumber={1} scale={1.2} renderTextLayer={false} />
+                            <Page pageNumber={1} scale={1} size={"A4"} renderTextLayer={false} />
                         </Document>
                     </PDFDocumentWrapper>
                 </Col>
