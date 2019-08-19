@@ -28,7 +28,7 @@ const ProjectsPage = () => (
       </Row>
 
       <Row>
-        <Col xs={{ size: 'auto', offset: 1 }} s={{ size: 'auto', offset: 0 }} md={{ size: 'auto', offset: 0 }} lg={{ size: 'auto', offset: 0 }} style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <Col style={{ paddingLeft: 0, paddingRight: 0 }}>
           {projectPanelDiv}
         </Col>
       </Row>
