@@ -17,7 +17,7 @@ const PDFDocumentWrapper = styled.div`
         }
 
         @media ${device.laptop} {
-            width: 45% !important;
+            width: 60% !important;
             height: auto !important;
         }
     }
@@ -28,7 +28,7 @@ const ResumePage = () => (
         <Container>
             <SEO title="Resume"/>
             <Row>
-                <Col xs="12" md={{ size: 12, offset: 3}}>
+                <Col xs="12" md={{ size: 12, offset: 2}}>
                     <PDFDocumentWrapper>
                         <Document file={resume}> 
                             <Page pageNumber={1} scale={1} size={"A4"} renderTextLayer={false} />
