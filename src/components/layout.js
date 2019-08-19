@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Fade from "react-reveal/Fade"
 
 import Header from "./header"
+import Footer from "./footer"
 import "../styles/layout.css"
 import "typeface-varela-round"
 import "typeface-montserrat"
@@ -42,10 +43,13 @@ const Layout = ({ children }) => (
             color: `#515151`,
           }}
         >
+          <div>
             <Header siteTitle={data.site.siteMetadata.title} menuLinks={data.site.siteMetadata.menuLinks} />
-          <Fade bottom distance={`25px`}>
-            <main>{children}</main>
-          </Fade>
+            <Fade bottom distance={`25px`}>
+              <main style={{ minHeight: `75vh` }}>{children}</main>
+              <Footer />
+            </Fade>
+          </div>
         </div>
       </>
     )}

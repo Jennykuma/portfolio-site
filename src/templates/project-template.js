@@ -1,7 +1,8 @@
 // From https://www.gatsbyjs.org/docs/adding-markdown-pages/
 
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Img from "gatsby-image"
@@ -22,6 +23,18 @@ const Date = styled.h6`
   color: #333333;
 `;
 
+const StyledLink = styled(props => <Link {...props} />)`
+	font-family: nunito sans;
+  font-size: 0.9em;
+  font-weight: 500;
+	color: #333333;
+
+	&:hover {
+		color: #f2afa4;
+		text-decoration: none;
+	}
+`;
+
 const Text = styled.text`
     font-size: 1em;
     line-height: 1.5em;
@@ -29,8 +42,9 @@ const Text = styled.text`
 `;
 
 export default function Template({
-  data, // this prop will be injected by the GraphQL query below.
+  data, pageContext // this prop will be injected by the GraphQL query below.
 }) {
+  const { next, prev } = pageContext
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
   return (
@@ -44,6 +58,15 @@ export default function Template({
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}
         ></Text>
+
+        <br />
+
+        <p style={{ textAlign: `center` }}>
+          {next && <StyledLink to={next.frontmatter.path}> <FaAngleLeft /> Prev Project </StyledLink>}
+          &nbsp;
+          {prev && <StyledLink to={prev.frontmatter.path}> Next Project <FaAngleRight /> </StyledLink>}
+        </p>
+
       </div>
     </div>
     </Layout>
