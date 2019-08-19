@@ -44,7 +44,7 @@ const AboutPage = () => (
     <Layout>
         <Container fluid>
             <SEO title="About"/>
-            <Row style={{ marginTop: `7vh` }}>
+            <Row style={{ marginTop: `3vw` }}>
                 <Headliner>about:</Headliner>
             </Row>
 

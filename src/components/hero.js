@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from 'styled-components'
 import { Container, Row, Col } from 'reactstrap'
+import { MediaQuery } from 'react-responsive'
 import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 import DynamicImage from "../components/image"
@@ -55,11 +56,13 @@ const IconLink = styled.a`
 const Hero = () => (
     <Container fluid>
         <SEO title="Home"/>
-        <Row style={{ marginTop: `7vh` }}>
-            <Col xs="0" s="0" md="4" lg="4">
-                <DynamicImage imageName={"jennykumaImage"}></DynamicImage>
-            </Col>
-
+        <Row style={{ marginTop: `3vw` }}>
+            <MediaQuery minWidth={1224}>
+                <Col xs="0" s="0" md="4" lg="4">
+                    <DynamicImage imageName={"jennykumaImage"}></DynamicImage>
+                </Col>
+            </MediaQuery>
+        
             <Col xs="12" s="12" md="8" lg="8" style={{ marginTop: `1%`, padding: `3%` }}>
                 <Row>
                     <Text>hey there! I'm</Text>
