@@ -31,7 +31,7 @@ const ResumePage = () => (
                 <Col xs="12" md={{ size: 12, offset: 2}}>
                     <PDFDocumentWrapper>
                         <Document file={resume}> 
-                            <Page pageNumber={1} scale={1} size={"A4"} renderTextLayer={false} />
+                            <Page pageNumber={1} scale={1.5} size={"A4"} renderTextLayer={false} />
                         </Document>
                     </PDFDocumentWrapper>
                 </Col>
