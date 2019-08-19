@@ -134,9 +134,10 @@ Planting Hygge is a thought-provoking experience which causes the user to consid
 This storyboard was drawn first to get the ball rolling. I wanted to see what the user would do, to begin with, and what they would do to end off the experience. First, the user would choose their pots and then go onto filling up their pot with materials such as gravel or soil and choosing their plant to put in. From there, they would be able to do gestures to mimic a Zen Garden within their succulent. They would also be able to water it and look back on the past plants that they have grown. Before I knew it, the direction of this storyboard would change.
 
 ##### Second Storyboard
-| &nbsp; | &nbsp; | &nbsp; | &nbsp; |
-|:-:|:-:|:-:|:-:|
-| ![Storyboard 1](./second-storyboard-1.jpg) | ![Storyboard 2](./second-storyboard-2.jpg) | ![Storyboard 3](./second-storyboard-3.jpg "Pot Selection") | ![Storyboard 4](./second-storyboard-4.png "Option Map") |
+| &nbsp; | &nbsp; |
+|:-:|:-:|
+| ![Storyboard 1](./second-storyboard-1.jpg) | ![Storyboard 2](./second-storyboard-2.jpg) |
+| ![Storyboard 3](./second-storyboard-3.jpg "Pot Selection") | ![Storyboard 4](./second-storyboard-4.png "Option Map") |
 This storyboard was drawn after I started to implement the program on Unity. This is a more realistic storyboard as I realized my time constraints and the difficulty when it was time to implement code. I was quite saddened by the reality of the storyboard, but if I were to work more on this project, I would try to implement most of my variations and the features in the storyboard above. The user would again start by choosing their pot, and then they would select items that correspond to the question being asked on the screen. After answering questions for a number of times, the user would then be presented with a special plant which is unique to their answers. The third image is a page of pot sketches as I was researching different pots to implement in Unity. And the fourth image is a quick layout of answer patterns that result in certain plants to show up. The first question heavily dictates which plant will be received in the end because the more times you see your friends, the more leaves the plant will appear to have.
 
 ##### Progress
