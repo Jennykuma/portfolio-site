@@ -5,11 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
+import '@babel/polyfill'
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import Fade from "react-reveal/Fade"
 
+import Fade from "react-reveal/Fade"
 import Header from "./header"
 import Footer from "./footer"
 import "../styles/layout.css"
