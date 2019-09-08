@@ -2,6 +2,15 @@
     "projectData": [
         {
             "project": {
+                "title": "Weather Checker",
+                "imageName": "weatherCheckerImage",
+                "description": "A Node.js weather application that relays temperature information to the user and also jokingly suggests what to wear",
+                "tags": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+                "link": "/projects/weather-checker"
+            }
+        },
+        {
+            "project": {
                 "title": "Temperature Anomalies",
                 "imageName": "temperatureAnomaliesImage",
                 "description": "A D3.js bubble scatter chart that visualizes different temperature anomalies for different regions of the world from 1987-2016",

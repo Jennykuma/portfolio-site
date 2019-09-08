@@ -72,6 +72,13 @@ const DynamicImage = (props) => {
           }
         }
       }
+      weatherCheckerImage: file(relativePath: { eq: "weatherChecker.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 400) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `)
 
@@ -92,6 +99,8 @@ const DynamicImage = (props) => {
     return <Img fluid={data.mySpotifyDataImage.childImageSharp.fluid} />
   } else if (imageName == "smartphoneMarketSharesImage") {
     return <Img fluid={data.smartphoneMarketSharesImage.childImageSharp.fluid} />
+  } else if (imageName == "weatherCheckerImage") {
+    return <Img fluid={data.weatherCheckerImage.childImageSharp.fluid} />
   }
 }
 export default DynamicImage
