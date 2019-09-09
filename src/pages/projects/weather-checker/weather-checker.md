@@ -50,5 +50,13 @@ Instead of reading a temperature off of the screen, I think that it would be pre
 ##### GitHub
 GitHub Repository: <a target="_blank" href="https://github.com/Jennykuma/weather-checker">https://github.com/Jennykuma/weather-checker</a>
 
+##### Instructions for Running Locally
+1. Clone the repo linked above
+2. Go to the project directory of where you cloned the repo in a terminal
+3. Do <i>'npm install'</i> to install all project dependencies 
+4. Do <i>'npm install -g nodemon'</i> to install the utility; it will automatically restart your server if changes occur
+5. Do <i>'node server.js'</i> to run it
+6. Visit <i>'localhost:3000'</i> in your browser to view the project
+
 ##### Working Webpage
 Visit: Not active yet
