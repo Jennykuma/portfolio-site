@@ -29,6 +29,7 @@
     "react-pdf": "^4.1.0",
     "react-responsive": "^7.0.0",
     "react-reveal": "^1.2.2",
+    "react-typed": "^1.2.0",
     "reactstrap": "^8.0.1",
     "styled-components": "^5.0.0-beta.6-ej4",
     "typeface-montserrat": "0.0.54",

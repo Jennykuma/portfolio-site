@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'reactstrap'
 import { FaRegEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { device } from "../components/device"
 
+import TypedDescription from "../components/typed-description"
 import DynamicImage from "../components/image"
 import SEO from "../components/seo"
 
@@ -76,30 +77,37 @@ const Hero = () => (
         
             <Col xs="12" s="12" md="8" lg="8" style={{ marginTop: `1%`, padding: `3%` }}>
                 <Row>
-                    <Text>hey there! I'm</Text>
+                    <Text>hey there! I am</Text>
                 </Row>
                 <Row>
-                    <Name>Jenny Le.</Name>
+                    <Name>
+                        Jenny Le.
+                    </Name>
+                </Row>
+                <Row>
+                    I am&nbsp;<TypedDescription />
                 </Row>
                 <Row>
                     <Text>
-                        I am a fifth-year Computer Science student who is also concentrating in Human-Computer Interactions 
-                        at the University of Calgary.
-                        <p></p>
+                        <br/>
                         I love to create beautiful <StyledLink to={/projects/}>experiences</StyledLink> for others through web applications and various technologies <br />
                         & enjoy capturing special <StyledExtLink target="_blank" href="https://www.instagram.com/jiku.ma/">moments</StyledExtLink> with my Sony a6000.
                     </Text>
-                    <IconLink href={"mailto:" + "jenny.le@ucalgary.ca"}>
-                        <FaRegEnvelope />
-                    </IconLink>
+                </Row>
+                <Row>
+                    <div>
+                        <IconLink href={"mailto:" + "jennyle.dev@gmail.com"}>
+                            <FaRegEnvelope />
+                        </IconLink>
 
-                    <IconLink target="_blank" href="https://github.com/Jennykuma">
-                        <FaGithub />
-                    </IconLink>
+                        <IconLink target="_blank" href="https://github.com/Jennykuma">
+                            <FaGithub />
+                        </IconLink>
 
-                    <IconLink target="_blank" href="https://www.linkedin.com/in/jennyle05/">
-                        <FaLinkedin />
-                    </IconLink>
+                        <IconLink target="_blank" href="https://www.linkedin.com/in/jennyle05/">
+                            <FaLinkedin />
+                        </IconLink>
+                    </div>
                 </Row>
             </Col>
         </Row>

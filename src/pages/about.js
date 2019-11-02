@@ -63,13 +63,13 @@ const AboutPage = () => (
                         <p></p>
                         When I am not building web applications, I am probably using my Sony a6000 to capture moments and putting them 
                         up on <StyledLink target="_blank" href="https://www.instagram.com/jiku.ma/">Instagram</StyledLink>. I also use some of my spare time to do coding 
-                        problems on <StyledLink target="_blank" href="https://www.codewars.com/users/Jennykuma">Codewars</StyledLink>, read news articles, or game. 
+                        problems, read tech articles, or game. 
                         <p></p>
                         I love to take photos, travel, try new foods, and play sports (team sports & Minesweeper)!
                         <p></p>
                         Send me a message via email or LinkedIn if you ever want to chat!
                         <br />
-                        <IconLink href={"mailto:" + "jenny.le@ucalgary.ca"}>
+                        <IconLink href={"mailto:" + "jennyle.dev@gmail.com"}>
                             <FaRegEnvelope style={{marginRight: `10px`}}/>
                         </IconLink>
 
